@@ -1,4 +1,5 @@
-### Hi there 👋
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=nao1215&show_icons=true&theme=vue)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nao1215)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
 **nao1215/nao1215** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
