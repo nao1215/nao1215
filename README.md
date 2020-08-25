@@ -1,6 +1,3 @@
-[![My Qiita posts](https://qiita-badge.apiapi.app/s/mikkame/posts.svg)](https://qiita.com/Nao1215)
-[![My Qiita contributions](https://qiita-badge.apiapi.app/s/mikkame/contributions.svg)](https://qiita.com/Nao1215)
-[![My Qiita followers](https://qiita-badge.apiapi.app/s/mikkame/followers.svg)](https://qiita.com/Nao1215)
 
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=nao1215&show_icons=true&theme=vue)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nao1215)](https://github.com/anuraghazra/github-readme-stats)
