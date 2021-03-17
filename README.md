@@ -1,5 +1,5 @@
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=nao1215&show_icons=true&theme=vue)
+![nao1215's github stats](https://github-readme-stats.vercel.app/api?username=nao1215)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nao1215)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
