@@ -10,5 +10,6 @@
 |[osinfo](https://github.com/nao1215/osinfo)|get HW / SW information for Linux/Mac/Unix.|
 |[posixer](https://github.com/nao1215/posixer) | Check if the POSIX command is installed on your system|
 |[ubume](https://github.com/nao1215/ubume) | Golang project template generator|
+|[serial](https://github.com/nao1215/serial)| add serial number to the file name.|
 |[speaker](https://github.com/nao1215/speaker)| Read the text aloud|
 |[subaru](https://github.com/nao1215/subaru) | "fortune command" written by golang|
