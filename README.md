@@ -1,3 +1,5 @@
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=nao1215)](https://github.com/anuraghazra/github-readme-stats)
+
 |CLI or Library| Description|
 |:--|:--|
 |[contributor](https://github.com/nao1215/contributor)|print contributor List (only support git)|
