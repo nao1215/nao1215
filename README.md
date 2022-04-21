@@ -9,7 +9,6 @@
 |[gup](https://github.com/nao1215/gup) | Update binaries installed by "go install"|
 |[mimixbox](https://github.com/nao1215/mimixbox)|mimic BusyBox on Linux|
 |[nameconv](https://github.com/nao1215/nameconv) | converts string naming conventions|
-|[osinfo](https://github.com/nao1215/osinfo)|get HW / SW information for Linux/Mac/Unix.|
 |[posixer](https://github.com/nao1215/posixer) | Check if the POSIX command is installed on your system|
 |[mkgoprj](https://github.com/nao1215/mkgoprj) | Golang project template generator|
 |[serial](https://github.com/nao1215/serial)| add serial number to the file name.|
