@@ -1,7 +1,6 @@
 ## Hey there 🤘
 I am backend engineer, interested in system programming.<br><br>
-I love Linux culture, OSS, Operating System, CLI commands. I write small CLI commands in Golang that make daily tasks easier for me.    
-I hope people will like the tools I wrote. I'm waiting for ⭐⭐⭐ 
+I love Linux culture, OSS, Operating System, CLI commands. I write small CLI commands in Golang that make daily tasks easier for me. I hope people will like the tools I wrote. I'm waiting for ⭐⭐⭐ 
   
 Language: C / Golang / Bash/ Python / Vala (Learning: Kotlin, Haskell) 
   
