@@ -5,9 +5,6 @@ I love Linux culture, OSS, Operating System, CLI commands. I write small CLI com
 Language: C / Golang / Bash/ Python / Vala (Learning: Kotlin, Haskell) 
   
 <p align="left">
-  <a href="https://github.com/nao1215/nao1215/">
-    <img src="https://komarev.com/ghpvc/?username=nao1215" alt="nao1215" />
-  </a>
   <a href="http://twitter.com/ARC_AED">
     <img height="20" src="https://img.shields.io/twitter/follow/ARC_AED?label=Twitter&logo=twitter&style=flat" />
   </a>
