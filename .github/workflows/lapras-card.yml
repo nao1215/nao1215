@@ -13,7 +13,7 @@ jobs:
       - uses: kawamataryo/lapras-card-readme@main
         with:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SHARE_ID: 'WFKXX3K'
+          SHARE_ID: 'WFKXK3K'
           ICON_FIRST: "#030E21"
           ICON_SECOND: "#166288"
           BACKGROUND_FIRST: "#020E27"
