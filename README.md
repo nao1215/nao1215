@@ -12,3 +12,5 @@ Language: C / Golang / Bash/ Python / Vala (Learning: Kotlin, Haskell)
 </p>
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=nao1215)](https://github.com/anuraghazra/github-readme-stats)
+<!--START_SECTION:lapras-card-->
+<!--END_SECTION:lapras-card-->
