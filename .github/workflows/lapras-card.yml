@@ -18,4 +18,4 @@ jobs:
           ICON_SECOND: "#166288"
           BACKGROUND_FIRST: "#020E27"
           BACKGROUND_SECOND: "#0E5593"
-          LANG: "ja"
+          LANG: ""
