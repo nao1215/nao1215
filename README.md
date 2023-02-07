@@ -1,6 +1,6 @@
 I love Linux culture, OSS, Operating System, CLI commands. I write small CLI commands in Golang that make daily tasks easier for me. I hope you will like the tools I wrote.
   
-Language: C / Golang / Bash/ Python / Vala (Learning: Kotlin, Haskell) 
+Language: C / Golang / Bash/ Python / Vala 
   
 <p align="left">
   <a href="http://twitter.com/ARC_AED">
