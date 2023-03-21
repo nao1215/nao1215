@@ -3,9 +3,6 @@ I love Linux culture, OSS, Operating System, CLI commands. I write small CLI com
 Language: C / Golang / Bash/ Python / Vala 
   
 <p align="left">
-  <a href="http://twitter.com/ARC_AED">
-    <img height="20" src="https://img.shields.io/twitter/follow/ARC_AED?label=Twitter&logo=twitter&style=flat" />
-  </a>
   <a href="https://github.com/nao1215">
     <img height="20" src="https://img.shields.io/github/followers/nao1215?label=follow&logo=github&style=flat" />
   </a>
