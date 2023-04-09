@@ -1,5 +1,19 @@
+### Activity
+|Repository|Language|Description|
+|:--|:--|:--|
+|[gup](https://github.com/nao1215/gup)|golang|Update binaries installed by "go install" with goroutines|
+|[leadtime](https://github.com/nao1215/leadtime)|golang|Caluculate GitHub PR lead time statistics|
+|[jose](https://github.com/nao1215/jose)|golang|CLI tool for JOSE (JSON Object Signing and Encryption)|
+|[verify-iap-receipt](https://github.com/nao1215/verify-iap-receipt)|golang|WIP: verify in app purchase receipt via Apple App Store or Google Play Store|
+|[sqly](https://github.com/nao1215/sqly)|golang|Eaisly execute SQL against CSV/TSV/LTSV/JSON with shell|
+|[mimixbox](https://github.com/nao1215/mimixbox)|golang|Mimic BusyBox on Linux|
+|[mkgoprj](https://github.com/nao1215/mkgoprj)|golang|Golang project template generator|
+|[morrigan](https://github.com/nao1215/morrigan)|golang|Penetration Tool Set|
+|[go-lapras](https://github.com/nao1215/go-lapras)|golang|Go library for accessing the LAPRAS inc. API|
+|[gorky](https://github.com/nao1215/gorky)|golang|powerful & bitter utility library in golang|
+|[libvalacore](https://github.com/nao1215/libvalacore)|vala|libcore is basic library for vala language|
+|[deapk](https://github.com/nao1215/deapk)|golang|parse android package (.apk), getting meta data and more.|
+|[LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource)|C|XINU (Real Time OS)学習用リポジトリ。|
+
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=nao1215)](https://github.com/anuraghazra/github-readme-stats)
-<!--START_SECTION:lapras-card-->
-<a href="https://lapras.com/public/WFKXK3K" target="_blank" rel="noopener noreferrer"><img src="https://lapras-card-generator.vercel.app/api/svg?e=3.75&b=3.57&i=3.37&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%23166288&l=en" width="400" ></a>  
-Last Updated on 4/9/2023, 12:16:38 AM
-<!--END_SECTION:lapras-card-->
+
