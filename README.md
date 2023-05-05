@@ -14,6 +14,7 @@
 |[libvalacore](https://github.com/nao1215/libvalacore)|vala|libcore is basic library for vala language|
 |[deapk](https://github.com/nao1215/deapk)|golang|parse android package (.apk), getting meta data and more.|
 |[LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource)|C|XINU (Real Time OS)学習用リポジトリ。|
+|[Klipy](https://github.com/nao1215/Klipy)| CLI/GUI toolsets for the clipboard|
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=nao1215)](https://github.com/anuraghazra/github-readme-stats)
 
