@@ -4,7 +4,7 @@
 |[gup](https://github.com/nao1215/gup)|golang|Update binaries installed by "go install" with goroutines|
 |[leadtime](https://github.com/nao1215/leadtime)|golang|Caluculate GitHub PR lead time statistics|
 |[jose](https://github.com/nao1215/jose)|golang|CLI tool for JOSE (JSON Object Signing and Encryption)|
-|[reddit-downloader]([https://github.com/nao1215/verify-iap-receipt](https://github.com/nao1215/reddit-downloader))|golang|Reddit Image Downloader written in Golang|
+|[reddit-downloader](https://github.com/nao1215/reddit-downloader)|golang|Reddit Image Downloader written in Golang|
 |[sqly](https://github.com/nao1215/sqly)|golang|Eaisly execute SQL against CSV/TSV/LTSV/JSON with shell|
 |[mimixbox](https://github.com/nao1215/mimixbox)|golang|Mimic BusyBox on Linux|
 |[mkgoprj](https://github.com/nao1215/mkgoprj)|golang|Golang project template generator|
