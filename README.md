@@ -2,7 +2,7 @@
 |Repository|Language|Description|
 |:--|:--|:--|
 |[gup](https://github.com/nao1215/gup)|golang|Update binaries installed by "go install" with goroutines|
-|[go-spectest](https://github.com/go-spectest)|api test to simplify REST API, HTTP handler and e2e tests|
+|[go-spectest](https://github.com/go-spectest)|golang|api test to simplify REST API, HTTP handler and e2e tests|
 |[emigre](https://github.com/nao1215/emigre)|golang|[WIP] emigre - Self-hosted image sharing social media|
 |[leadtime](https://github.com/nao1215/leadtime)|golang|Caluculate GitHub PR lead time statistics|
 |[jose](https://github.com/nao1215/jose)|golang|CLI tool for JOSE (JSON Object Signing and Encryption)|
