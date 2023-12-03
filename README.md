@@ -2,6 +2,7 @@
 |Repository|Language|Description|
 |:--|:--|:--|
 |[gup](https://github.com/nao1215/gup)|golang|Update binaries installed by "go install" with goroutines|
+|[hottest](https://github.com/nao1215/hottest)|golang|user-friendly 'go test' that extracts error messages.|
 |[spectest](https://github.com/go-spectest/spectest)|golang|api test to simplify REST API, HTTP handler and e2e tests|
 |[naraku](https://github.com/go-spectest/naraku)|golang| API collection for testing go-spectest/spectest|
 |[markdown](https://github.com/go-spectest/markdown)|golang|simple markdown builder in golang|
