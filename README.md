@@ -15,5 +15,3 @@
 |[selfish](https://github.com/nao1215/selfish)|OCaml| the shell dyed in your selfish colors|
 |[LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource)|C|XINU (Real Time OS)学習用リポジトリ。|
 |[my-life](https://github.com/nao1215/my-life)|Japanese|経歴、性格、死ぬまでにしたいこと、日記|
-
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=nao1215)](https://github.com/anuraghazra/github-readme-stats)
