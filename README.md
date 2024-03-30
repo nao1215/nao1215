@@ -14,3 +14,6 @@
 |[sqly](https://github.com/nao1215/sqly)|golang|Eaisly execute SQL against CSV/TSV/LTSV/JSON with shell|
 |[LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource)|C|XINU (Real Time OS)学習用リポジトリ。|
 |[my-life](https://github.com/nao1215/my-life)|Japanese|経歴、性格、死ぬまでにしたいこと、日記|
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=nao1215&theme=github)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nao1215&theme=github&utcOffset=8)
