@@ -12,6 +12,8 @@
 |[reddit-downloader](https://github.com/nao1215/reddit-downloader)|golang|Reddit Image Downloader written in Golang|
 |[imaging](https://github.com/go-spectest/imaging)|golang|Imaging is a simple image processing package for Go|
 |[sqly](https://github.com/nao1215/sqly)|golang|Eaisly execute SQL against CSV/TSV/LTSV/JSON with shell|
+|[hasher](https://github.com/nao1215/hasher)|hasher - generate & compare hash using multiple algorithms|
+|[denv](https://github.com/nao1215/denv)|manages the deployment environment, which can be one of development, integration, staging, or production.|
 |[LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource)|C|XINU (Real Time OS)学習用リポジトリ。|
 |[my-life](https://github.com/nao1215/my-life)|Japanese|経歴、性格、死ぬまでにしたいこと、日記|
 
