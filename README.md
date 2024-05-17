@@ -4,6 +4,7 @@
 |[gup](https://github.com/nao1215/gup)|golang|Update binaries installed by "go install" with goroutines|
 |[rainbow](https://github.com/nao1215/rainbow)|golang|🌈user-friendly AWS toolset and cloudformation templates|
 |[hottest](https://github.com/nao1215/hottest)|golang|user-friendly 'go test' that extracts error messages.|
+|[honeycomb](https://github.com/nao1215/honeycomb)|golang|[WIP] honeycomb - Nostr client CLI application for cross-platform|
 |[spectest](https://github.com/go-spectest/spectest)|golang|api test to simplify REST API, HTTP handler and e2e tests|
 |[markdown](https://github.com/go-spectest/markdown)|golang|simple markdown builder in golang|
 |[csv](https://github.com/nao1215/csv)|golang|read csv with validation in golang|
