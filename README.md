@@ -12,7 +12,6 @@
 | [rainbow](https://github.com/nao1215/rainbow) | golang | 🌈user-friendly AWS toolset and cloudformation templates. |
 | [morrigan](https://github.com/nao1215/morrigan) | golang   | penetration tool set. |
 | [hottest](https://github.com/nao1215/hottest) | golang | user-friendly 'go test' that extracts error messages. |
-| [imaging](https://github.com/nao1215/imaging) | golang | simple image processing package in Go. |
 | [clockwork-base32](https://github.com/nao1215/clockwork-base32) | haskell | clockwork-base32 in Haskell. |
 | [cic](https://github.com/nao1215/cic) | rust | compound interest calculator | 
 | [actions-ebitengine](https://github.com/nao1215/actions-ebitengine) | actions | set up your GitHub Actions workflow with ebitengine dependencies. |
