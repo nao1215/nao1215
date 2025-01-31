@@ -15,6 +15,6 @@
 | [imaging](https://github.com/nao1215/imaging) | golang | simple image processing package in Go. |
 | [clockwork-base32](https://github.com/nao1215/clockwork-base32) | haskell | clockwork-base32 in Haskell. |
 | [cic](https://github.com/nao1215/cic) | rust | compound interest calculator | 
-| [actions-ebitengine](https://github.com/nao1215/actions-ebitengine) | github actions | set up your GitHub Actions workflow with ebitengine dependencies. |
+| [actions-ebitengine](https://github.com/nao1215/actions-ebitengine) | actions | set up your GitHub Actions workflow with ebitengine dependencies. |
 | [LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource) | C | XINU (Real Time OS)学習用リポジトリ |
 | [my-life](https://github.com/nao1215/my-life)  | Japanese | 経歴、性格、死ぬまでにしたいこと、日記 |
