@@ -17,4 +17,4 @@
 | [actions-ebitengine](https://github.com/nao1215/actions-ebitengine) | actions | set up your GitHub Actions workflow with ebitengine dependencies. |
 | [LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource) | C | XINU (Real Time OS)学習用リポジトリ |
 | [my-life](https://github.com/nao1215/my-life)  | Japanese | 経歴、性格、死ぬまでにしたいこと、日記 |
-| [debimate](https://debimate.jp/) | Japanese | 技術ブログ。Debian と Mate（友達）になるために作り始めたが、現在は雑多な記事を書いている |
+| [debimate](https://debimate.jp/) | Japanese | 技術ブログ。Debian と Mate（友達）になるはずだった |
