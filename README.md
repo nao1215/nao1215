@@ -19,4 +19,4 @@
 | [LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource) | C | XINU (Real Time OS)学習用リポジトリ |
 | [my-life](https://github.com/nao1215/my-life)  | Japanese | 経歴、性格、死ぬまでにしたいこと、日記 |
 | [debimate](https://debimate.jp/) | Japanese | 技術ブログ。Debian と Mate（友達）になるはずだった |
-| [ddd-book](https://github.com/nao1215/ddd-book) | Japanese | ひっそりと書いているDDD本（同人誌、非公開設定）|
+| [waydroid-book](https://github.com/nao1215/waydroid-book) | Japanese | ひっそりと書いている技術同人誌（非公開設定）|
