@@ -3,7 +3,7 @@
 | [gup](https://github.com/nao1215/gup)      | golang   | update binaries installed by "go install" with goroutines.|
 | [markdown](https://github.com/nao1215/markdown) | golang | simple markdown & mermaid builder in golang |
 | [sqly](https://github.com/nao1215/sqly)     | golang   | eaisly execute SQL against CSV/TSV/LTSV/JSON and Microsoft Excel™ with shell. |
-| [sqluv](https://github.com/nao1215/sqluv) | golang |simple terminal UI for RDBMS & local/https CSV/TSV/LTSV.|
+| [sqluv](https://github.com/nao1215/sqluv) | golang |simple terminal UI for RDBMS & local/https/s3 CSV/TSV/LTSV.|
 | [mimixbox](https://github.com/nao1215/mimixbox) | golang   | mimic BusyBox on Linux |
 | [spectest](https://github.com/nao1215/spectest) | golang   | api test library to simplify REST API, HTTP handler and e2e tests. |
 | [csv](https://github.com/nao1215/csv)      | golang   | read csv with validation in golang. |
