@@ -19,4 +19,5 @@
 | [LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource) | C | XINU (Real Time OS)学習用リポジトリ |
 | [my-life](https://github.com/nao1215/my-life)  | Japanese | 経歴、性格、死ぬまでにしたいこと、日記 |
 | [debimate](https://debimate.jp/) | Japanese | 技術ブログ。Debian と Mate（友達）になるはずだった |
+| [技術同人誌](real-world-bug-hunting-book)| Japanese | 書き途中 |
 
