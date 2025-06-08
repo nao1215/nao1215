@@ -19,5 +19,5 @@
 | [LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource) | C | XINU (Real Time OS)学習用リポジトリ |
 | [my-life](https://github.com/nao1215/my-life)  | Japanese | 経歴、性格、死ぬまでにしたいこと、日記 |
 | [debimate](https://debimate.jp/) | Japanese | 技術ブログ。Debian と Mate（友達）になるはずだった |
-| [gambit]([github.com/nao1215/gambit](https://github.com/nao1215/gambit))| Japanese | ebitengine を使って開発中のゲーム。完成するまでプライベート |
+| [gambit](https://github.com/nao1215/gambit) | Japanese | ebitengine を使って開発中のゲーム。完成するまでプライベート |
 
