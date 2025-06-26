@@ -14,6 +14,7 @@
 | [morrigan](https://github.com/nao1215/morrigan) | golang   | penetration tool set. |
 | [hottest](https://github.com/nao1215/hottest) | golang | user-friendly 'go test' that extracts error messages. |
 | [clockwork-base32](https://github.com/nao1215/clockwork-base32) | haskell | clockwork-base32 in Haskell. |
+| [levenshtein](https://github.com/nao1215/levenshtein) | OCaml | Unicode-aware edit distance library in OCaml |
 | [cic](https://github.com/nao1215/cic) | rust | compound interest calculator | 
 | [actions-ebitengine](https://github.com/nao1215/actions-ebitengine) | actions | set up your GitHub Actions workflow with ebitengine dependencies. |
 | [LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource) | C | XINU (Real Time OS)学習用リポジトリ |
