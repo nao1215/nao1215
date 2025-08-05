@@ -1,3 +1,11 @@
+## 🦉
+
+- Developing: [snow-toolchain (private)](https://github.com/nao1215/snow-toolchain)
+- Activity: [diary](https://nao1215.github.io/my-life/)
+
+## List of Tools I've Created
+<details><summary>Tools</summary>
+
 | OSS      | Language | Description |
 | :------- | :------- | :---------  |
 | [gup](https://github.com/nao1215/gup)      | golang   | update binaries installed by "go install" with goroutines.|
@@ -21,4 +29,7 @@
 | [my-life](https://github.com/nao1215/my-life)  | Japanese | 経歴、性格、死ぬまでにしたいこと、[日記](https://nao1215.github.io/my-life/) |
 | [debimate](https://debimate.jp/) | Japanese | 技術ブログ。Debian と Mate（友達）になるはずだった |
 |[snow-toolchain](https://github.com/nao1215/snow-toolchain)|OCaml|小規模な自作言語（コンパイラ）。開発中のためprivate|
+
+</details>
+
 
