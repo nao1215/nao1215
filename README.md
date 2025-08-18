@@ -1,7 +1,6 @@
 ## 🦉
 
 - Developing: [snow-toolchain](https://github.com/nao1215/snow-toolchain)(original programming language)
-- Activity: [my diary](https://nao1215.github.io/my-life/) (in japanese)
 
 ## List of Tools I've Created
 <details><summary>Tools</summary>
