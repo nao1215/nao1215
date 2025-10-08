@@ -29,4 +29,5 @@
 </details>
 
 ## Spotify
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31ygpqenp4uxicudqin7qdobpov4&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=31ygpqenp4uxicudqin7qdobpov4&redirect=true)
+
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31ygpqenp4uxicudqin7qdobpov4&cover_image=true&theme=embed&show_offline=true&background_color=121212&interchange=true&profanity=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=31ygpqenp4uxicudqin7qdobpov4&redirect=true)
