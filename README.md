@@ -1,5 +1,3 @@
-[my-life](https://github.com/nao1215/my-life) in Japanese.
-
 ## 🦉 List of Tools I've Created
 <details><summary>Tools</summary>
 
@@ -10,6 +8,7 @@
 | [sqly](https://github.com/nao1215/sqly)     | golang   | eaisly execute SQL against CSV/TSV/LTSV/JSON and Microsoft Excel™ with shell. |
 | [sqluv](https://github.com/nao1215/sqluv) | golang |simple terminal UI for RDBMS & local/https/s3 CSV/TSV/LTSV.|
 | [filesql](https://github.com/nao1215/filesql) | golang | sql driver for CSV, TSV, LTSV with gzip, bzip2, xz, zstd support. |
+| [horcrux](https://github.com/nao1215/horcrux) | TypeScript |Split files into encrypted fragments for Node & React Native  |
 | [mimixbox](https://github.com/nao1215/mimixbox) | golang   | mimic BusyBox on Linux |
 | [spectest](https://github.com/nao1215/spectest) | golang   | api test library to simplify REST API, HTTP handler and e2e tests. |
 | [csv](https://github.com/nao1215/csv)      | golang   | read csv with validation in golang. |
@@ -29,4 +28,5 @@
 
 </details>
 
-
+## Spotify
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31ygpqenp4uxicudqin7qdobpov4&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=31ygpqenp4uxicudqin7qdobpov4&redirect=true)
