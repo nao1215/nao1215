@@ -1,3 +1,7 @@
+## My blog in Japanese
+
+https://nao1215.github.io/debimate/
+
 ## 🦉 List of Tools I've Created
 <details><summary>Tools</summary>
 
