@@ -1,6 +1,6 @@
 ## My blog in Japanese
 
-https://nao1215.github.io/debimate/
+https://debimate.jp
 
 ## 🦉 List of Tools I've Created
 <details><summary>Tools</summary>
@@ -27,7 +27,6 @@ https://nao1215.github.io/debimate/
 | [cic](https://github.com/nao1215/cic) | rust | compound interest calculator | 
 | [actions-ebitengine](https://github.com/nao1215/actions-ebitengine) | actions | set up your GitHub Actions workflow with ebitengine dependencies. |
 | [LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource) | C | XINU (Real Time OS)学習用リポジトリ |
-| [debimate](https://debimate.jp/) | Japanese | 技術ブログ。Debian と Mate（友達）になるはずだった |
 |[snow-toolchain](https://github.com/nao1215/snow-toolchain)|OCaml|小規模な自作言語（コンパイラ）。開発中のためprivate|
 
 </details>
