@@ -22,6 +22,4 @@
 | [dataprep](https://github.com/nao1215/dataprep) | Gleam | Composable, type-driven preprocessing and validation combinator library for Gleam. |
 | [machine-learning-notes](https://github.com/nao1215/machine-learning-notes) | Jupyter Notebook | Repository of notes about machine learning. |
 | [sensitive](https://github.com/nao1215/sensitive) | Go | Detect and optionally mask sensitive data in text, including credit card numbers and email addresses. |
-| [snow](https://github.com/nao1215/snow) | AMPL | Standard library for the Snow language. |
-| [snow-toolchain](https://github.com/nao1215/snow-toolchain) | OCaml | Toolchain and ecosystem repository for the Snow programming language. |
 | [yabase](https://github.com/nao1215/yabase) | Gleam | Unified, type-safe interface for multiple binary-to-text encodings in Gleam. |
