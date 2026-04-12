@@ -4,6 +4,9 @@
 | [filesql](https://github.com/nao1215/filesql) | Go | SQL driver for CSV, TSV, LTSV, JSON, Parquet, and Excel with gzip, bzip2, xz, and zstd support. |
 | [sqly](https://github.com/nao1215/sqly) | Go | Execute SQL against CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files from the shell. |
 | [markdown](https://github.com/nao1215/markdown) | Go | Simple Markdown and Mermaid builder for Go. |
+| [oaspec](https://github.com/nao1215/oaspec) | Gleam | Generate strongly typed Gleam server stubs and client SDK from OpenAPI 3.x specifications |
+| [dataprep](https://github.com/nao1215/dataprep) | Gleam | Composable, type-driven preprocessing and validation combinator library for Gleam. |
+| [yabase](https://github.com/nao1215/yabase) | Gleam | Unified, type-safe interface for multiple binary-to-text encodings in Gleam. |
 | [sqluv](https://github.com/nao1215/sqluv) | Go | Terminal UI for RDBMS and CSV, TSV, and LTSV data from local, HTTPS, and S3 sources. |
 | [mimixbox](https://github.com/nao1215/mimixbox) | Go | BusyBox-like toolbox for Linux. |
 | [spectest](https://github.com/nao1215/spectest) | Go | Behavioral testing library for Go for API, HTTP handler, and end-to-end tests. |
@@ -19,7 +22,5 @@
 | [mobilepkg](https://github.com/nao1215/mobilepkg) | Go | Go library and CLI for inspecting mobile app packages and extracting metadata, signing info, diffs, and security findings. |
 | [vogen](https://github.com/nao1215/vogen) | Go | Value object generator for Go. |
 | [clockwork-base32](https://github.com/nao1215/clockwork-base32) | Haskell | Clockwork-Base32 implementation in Haskell. |
-| [dataprep](https://github.com/nao1215/dataprep) | Gleam | Composable, type-driven preprocessing and validation combinator library for Gleam. |
 | [machine-learning-notes](https://github.com/nao1215/machine-learning-notes) | Jupyter Notebook | Repository of notes about machine learning. |
 | [sensitive](https://github.com/nao1215/sensitive) | Go | Detect and optionally mask sensitive data in text, including credit card numbers and email addresses. |
-| [yabase](https://github.com/nao1215/yabase) | Gleam | Unified, type-safe interface for multiple binary-to-text encodings in Gleam. |
