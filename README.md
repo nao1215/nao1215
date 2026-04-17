@@ -5,6 +5,7 @@
 | [sqly](https://github.com/nao1215/sqly) | Go | Execute SQL against CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files from the shell. |
 | [markdown](https://github.com/nao1215/markdown) | Go | Simple Markdown and Mermaid builder for Go. |
 | [oaspec](https://github.com/nao1215/oaspec) | Gleam | Generate strongly typed Gleam server stubs and client SDK from OpenAPI 3.x specifications |
+| [sqlode](https://github.com/nao1215/sqlode) | Gleam | Generate type-safe Gleam code from SQL schemas and queries. sqlc-style workflow with PostgreSQL, MySQL, and SQLite support. |
 | [dataprep](https://github.com/nao1215/dataprep) | Gleam | Composable, type-driven preprocessing and validation combinator library for Gleam. |
 | [yabase](https://github.com/nao1215/yabase) | Gleam | Unified, type-safe interface for multiple binary-to-text encodings in Gleam. |
 | [sqluv](https://github.com/nao1215/sqluv) | Go | Terminal UI for RDBMS and CSV, TSV, and LTSV data from local, HTTPS, and S3 sources. |
