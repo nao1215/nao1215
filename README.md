@@ -14,7 +14,7 @@
 | [spectest](https://github.com/nao1215/spectest) | Go | Behavioral testing library for Go for API, HTTP handler, and end-to-end tests. |
 | [fileprep](https://github.com/nao1215/fileprep) | Go | Struct-tag-driven preprocessing and validation for CSV, TSV, LTSV, JSON, JSONL, Parquet, and Excel. |
 | [horcrux](https://github.com/nao1215/horcrux) | TypeScript | Split files into encrypted fragments for Node.js and React Native. |
-| [LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource) | C++ | Repository for learning XINU, a real-time operating system, from source. |
+| [LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource) | C | Repository for learning XINU, a real-time operating system, from source. |
 | [libvalacore](https://github.com/nao1215/libvalacore) | Vala | Standard library extension for Vala. |
 | [tornago](https://github.com/nao1215/tornago) | Go | Simple Tor client and server library in Go. |
 | [onionscan](https://github.com/nao1215/onionscan) | Go | Dark web investigation tool. |
