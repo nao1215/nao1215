@@ -9,6 +9,7 @@
 | [dataprep](https://github.com/nao1215/dataprep) | Gleam | Composable, type-driven preprocessing and validation combinator library for Gleam. |
 | [datastream](https://github.com/nao1215/datastream) |Gleam | Compositional, resource-safe streams for Gleam — runs on Erlang and JavaScript targets |
 | [mimetype](https://github.com/nao1215/mimetype) | Gleam | MIME type lookup and magic-number detection for Gleam on Erlang and JavaScript targets |
+| [multipartkit](https://github.com/nao1215/multipartkit) | Gleam | Multipart parser and builder for Gleam |
 | [yabase](https://github.com/nao1215/yabase) | Gleam | Unified, type-safe interface for multiple binary-to-text encodings in Gleam. |
 | [sqluv](https://github.com/nao1215/sqluv) | Go | Terminal UI for RDBMS and CSV, TSV, and LTSV data from local, HTTPS, and S3 sources. |
 | [mimixbox](https://github.com/nao1215/mimixbox) | Go | BusyBox-like toolbox for Linux. |
