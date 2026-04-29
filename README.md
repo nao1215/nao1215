@@ -10,6 +10,7 @@
 | [datastream](https://github.com/nao1215/datastream) | Gleam | 1 | Compositional, resource-safe streams for Gleam — runs on Erlang and JavaScript targets |
 | [mimetype](https://github.com/nao1215/mimetype) | Gleam | 1 | MIME type lookup and magic-number detection for Gleam on Erlang and JavaScript targets |
 | [multipartkit](https://github.com/nao1215/multipartkit) | Gleam | 1 | Multipart parser and builder for Gleam |
+| [ssevents](https://github.com/nao1215/ssevents) | Gleam | 1 | Server-Sent Events primitives for Gleam |
 | [yabase](https://github.com/nao1215/yabase) | Gleam | 2 | Unified, type-safe interface for multiple binary-to-text encodings in Gleam. |
 | [sqluv](https://github.com/nao1215/sqluv) | Go | 64 | Terminal UI for RDBMS and CSV, TSV, and LTSV data from local, HTTPS, and S3 sources. |
 | [mimixbox](https://github.com/nao1215/mimixbox) | Go | 38 | BusyBox-like toolbox for Linux. |
