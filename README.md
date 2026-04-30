@@ -4,7 +4,7 @@
 | [filesql](https://github.com/nao1215/filesql) | Go | 371 | SQL driver for CSV, TSV, LTSV, JSON, Parquet, and Excel with gzip, bzip2, xz, and zstd support. |
 | [sqly](https://github.com/nao1215/sqly) | Go | 141 | Execute SQL against CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files from the shell. |
 | [markdown](https://github.com/nao1215/markdown) | Go | 131 | Simple Markdown and Mermaid builder for Go. |
-| [oaspec](https://github.com/nao1215/oaspec) | Gleam | 4 | Generate strongly typed Gleam server stubs and client SDK from OpenAPI 3.x specifications |
+| [oaspec](https://github.com/nao1215/oaspec) | Gleam | 5 | Generate strongly typed Gleam server stubs and client SDK from OpenAPI 3.x specifications |
 | [sqlode](https://github.com/nao1215/sqlode) | Gleam | 3 | Generate type-safe Gleam code from SQL schemas and queries. sqlc-style workflow with PostgreSQL, MySQL, and SQLite support. |
 | [dataprep](https://github.com/nao1215/dataprep) | Gleam | 3 | Composable, type-driven preprocessing and validation combinator library for Gleam. |
 | [datastream](https://github.com/nao1215/datastream) | Gleam | 1 | Compositional, resource-safe streams for Gleam — runs on Erlang and JavaScript targets |
