@@ -1,6 +1,6 @@
 | OSS | Language | Stars | Description |
 | :--- | :--- | ---: | :--- |
-| [gup](https://github.com/nao1215/gup) | Go | 571 | Update binaries installed with `go install` using goroutines. |
+| [gup](https://github.com/nao1215/gup) | Go | 572 | Update binaries installed with `go install` using goroutines. |
 | [filesql](https://github.com/nao1215/filesql) | Go | 371 | SQL driver for CSV, TSV, LTSV, JSON, Parquet, and Excel with gzip, bzip2, xz, and zstd support. |
 | [sqly](https://github.com/nao1215/sqly) | Go | 141 | Execute SQL against CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files from the shell. |
 | [markdown](https://github.com/nao1215/markdown) | Go | 131 | Simple Markdown and Mermaid builder for Go. |
