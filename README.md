@@ -21,12 +21,7 @@
 | [LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource) | C | 7 | Repository for learning XINU, a real-time operating system, from source. |
 | [libvalacore](https://github.com/nao1215/libvalacore) | Vala | 8 | Standard library extension for Vala. |
 | [tornago](https://github.com/nao1215/tornago) | Go | 5 | Simple Tor client and server library in Go. |
-| [onionscan](https://github.com/nao1215/onionscan) | Go | 4 | Dark web investigation tool. |
-| [prompt](https://github.com/nao1215/prompt) | Go | 4 | Interactive terminal prompts library for Go. |
 | [fileframe](https://github.com/nao1215/fileframe) | Go | 3 | DataFrame API for CSV, TSV, LTSV, Parquet, and Excel. |
 | [truss](https://github.com/nao1215/truss) | Rust | 4 | Rust image toolkit for CLI, HTTP, and WASM with signed URLs, SSRF protection, and AVIF, WebP, and SVG support. |
 | [mobilepkg](https://github.com/nao1215/mobilepkg) | Go | 2 | Go library and CLI for inspecting mobile app packages and extracting metadata, signing info, diffs, and security findings. |
-| [vogen](https://github.com/nao1215/vogen) | Go | 2 | Value object generator for Go. |
-| [clockwork-base32](https://github.com/nao1215/clockwork-base32) | Haskell | 1 | Clockwork-Base32 implementation in Haskell. |
 | [machine-learning-notes](https://github.com/nao1215/machine-learning-notes) | Jupyter Notebook | 1 | Repository of notes about machine learning. |
-| [sensitive](https://github.com/nao1215/sensitive) | Go | 1 | Detect and optionally mask sensitive data in text, including credit card numbers and email addresses. |
