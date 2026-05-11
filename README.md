@@ -10,6 +10,7 @@
 | [datastream](https://github.com/nao1215/datastream) | Gleam | 1 | Compositional, resource-safe streams for Gleam — runs on Erlang and JavaScript targets |
 | [metamon](https://github.com/nao1215/metamon) | Gleam | 1 | Property-based testing and metamorphic testing combinator library for Gleam |
 | [automata](https://github.com/nao1215/automata) | Gleam | 1 | Cron, RRULE, retries, filesystem events, and finite automata for Gleam |
+| [finanza](https://github.com/nao1215/finanza) | Gleam | 0 | Decimal arithmetic, currency formatting, time-value-of-money, and payment-card helpers for Gleam. |
 | [textmetrics](https://github.com/nao1215/textmetrics) | Gleam | 2 | Edit distances, similarity scores, LCS, and diff for Gleam |
 | [mimetype](https://github.com/nao1215/mimetype) | Gleam | 1 | MIME type lookup and magic-number detection for Gleam on Erlang and JavaScript targets |
 | [multipartkit](https://github.com/nao1215/multipartkit) | Gleam | 1 | Multipart parser and builder for Gleam |
