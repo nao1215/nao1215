@@ -1,8 +1,8 @@
 | OSS | Language | Stars | Description |
 | :--- | :--- | ---: | :--- |
-| [gup](https://github.com/nao1215/gup) | Go | 574 | Update binaries installed with `go install` using goroutines. |
-| [filesql](https://github.com/nao1215/filesql) | Go | 371 | SQL driver for CSV, TSV, LTSV, JSON, Parquet, and Excel with gzip, bzip2, xz, and zstd support. |
-| [sqly](https://github.com/nao1215/sqly) | Go | 141 | Execute SQL against CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files from the shell. |
+| [gup](https://github.com/nao1215/gup) | Go | 575 | Update binaries installed with `go install` using goroutines. |
+| [filesql](https://github.com/nao1215/filesql) | Go | 372 | SQL driver for CSV, TSV, LTSV, JSON, Parquet, and Excel with gzip, bzip2, xz, and zstd support. |
+| [sqly](https://github.com/nao1215/sqly) | Go | 142 | Execute SQL against CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files from the shell. |
 | [markdown](https://github.com/nao1215/markdown) | Go | 131 | Simple Markdown and Mermaid builder for Go. |
 | [oaspec](https://github.com/nao1215/oaspec) | Gleam | 5 | Generate strongly typed Gleam server stubs and client SDK from OpenAPI 3.x specifications |
 | [sqlode](https://github.com/nao1215/sqlode) | Gleam | 3 | Generate type-safe Gleam code from SQL schemas and queries. sqlc-style workflow with PostgreSQL, MySQL, and SQLite support. |
@@ -10,8 +10,8 @@
 | [datastream](https://github.com/nao1215/datastream) | Gleam | 1 | Compositional, resource-safe streams for Gleam — runs on Erlang and JavaScript targets |
 | [metamon](https://github.com/nao1215/metamon) | Gleam | 1 | Property-based testing and metamorphic testing combinator library for Gleam |
 | [automata](https://github.com/nao1215/automata) | Gleam | 1 | Cron, RRULE, retries, filesystem events, and finite automata for Gleam |
-| [finanza](https://github.com/nao1215/finanza) | Gleam | 0 | Decimal arithmetic, currency formatting, time-value-of-money, and payment-card helpers for Gleam. |
-| [textmetrics](https://github.com/nao1215/textmetrics) | Gleam | 2 | Edit distances, similarity scores, LCS, and diff for Gleam |
+| [finanza](https://github.com/nao1215/finanza) | Gleam | 1 | Decimal arithmetic, currency formatting, time-value-of-money, and payment-card helpers for Gleam. |
+| [textmetrics](https://github.com/nao1215/textmetrics) | Gleam | 3 | Edit distances, similarity scores, LCS, and diff for Gleam |
 | [mimetype](https://github.com/nao1215/mimetype) | Gleam | 1 | MIME type lookup and magic-number detection for Gleam on Erlang and JavaScript targets |
 | [multipartkit](https://github.com/nao1215/multipartkit) | Gleam | 1 | Multipart parser and builder for Gleam |
 | [ssevents](https://github.com/nao1215/ssevents) | Gleam | 1 | Server-Sent Events primitives for Gleam |
