@@ -8,7 +8,7 @@
 | [sqlode](https://github.com/nao1215/sqlode) | Gleam | 3 | Generate type-safe Gleam code from SQL schemas and queries. sqlc-style workflow with PostgreSQL, MySQL, and SQLite support. |
 | [dataprep](https://github.com/nao1215/dataprep) | Gleam | 3 | Composable, type-driven preprocessing and validation combinator library for Gleam. |
 | [datastream](https://github.com/nao1215/datastream) | Gleam | 1 | Compositional, resource-safe streams for Gleam — runs on Erlang and JavaScript targets |
-| [metamon](https://github.com/nao1215/metamon) | Gleam | 1 | Property-based testing and metamorphic testing combinator library for Gleam |
+| [metamon](https://github.com/nao1215/metamon) | Gleam | 2 | Property-based testing and metamorphic testing combinator library for Gleam |
 | [automata](https://github.com/nao1215/automata) | Gleam | 1 | Cron, RRULE, retries, filesystem events, and finite automata for Gleam |
 | [finanza](https://github.com/nao1215/finanza) | Gleam | 1 | Decimal arithmetic, currency formatting, time-value-of-money, and payment-card helpers for Gleam. |
 | [textmetrics](https://github.com/nao1215/textmetrics) | Gleam | 3 | Edit distances, similarity scores, LCS, and diff for Gleam |
