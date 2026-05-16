@@ -5,19 +5,7 @@
 | [sqly](https://github.com/nao1215/sqly) | Go | 142 | Execute SQL against CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files from the shell. |
 | [markdown](https://github.com/nao1215/markdown) | Go | 131 | Simple Markdown and Mermaid builder for Go. |
 | [oaspec](https://github.com/nao1215/oaspec) | Gleam | 5 | Generate strongly typed Gleam server stubs and client SDK from OpenAPI 3.x specifications |
-| [sqlode](https://github.com/nao1215/sqlode) | Gleam | 3 | Generate type-safe Gleam code from SQL schemas and queries. sqlc-style workflow with PostgreSQL, MySQL, and SQLite support. |
-| [dataprep](https://github.com/nao1215/dataprep) | Gleam | 3 | Composable, type-driven preprocessing and validation combinator library for Gleam. |
-| [datastream](https://github.com/nao1215/datastream) | Gleam | 1 | Compositional, resource-safe streams for Gleam — runs on Erlang and JavaScript targets |
 | [metamon](https://github.com/nao1215/metamon) | Gleam | 2 | Property-based testing and metamorphic testing combinator library for Gleam |
-| [automata](https://github.com/nao1215/automata) | Gleam | 1 | Cron, RRULE, retries, filesystem events, and finite automata for Gleam |
-| [finanza](https://github.com/nao1215/finanza) | Gleam | 1 | Decimal arithmetic, currency formatting, time-value-of-money, and payment-card helpers for Gleam. |
-| [textmetrics](https://github.com/nao1215/textmetrics) | Gleam | 3 | Edit distances, similarity scores, LCS, and diff for Gleam |
-| [mimetype](https://github.com/nao1215/mimetype) | Gleam | 1 | MIME type lookup and magic-number detection for Gleam on Erlang and JavaScript targets |
-| [multipartkit](https://github.com/nao1215/multipartkit) | Gleam | 1 | Multipart parser and builder for Gleam |
-| [geokit](https://github.com/nao1215/geokit) | Gleam | 1 | Spherical-earth math, location encodings, and geometry operations for Gleam: haversine, bearing, geohash, polyline, Web Mercator, bbox / centroid / simplify. |
-| [qrkit](https://github.com/nao1215/qrkit) | Gleam | 1 | Pure Gleam QR code generator with terminal, SVG, and PNG rendering. |
-| [ssevents](https://github.com/nao1215/ssevents) | Gleam | 1 | Server-Sent Events primitives for Gleam |
-| [yabase](https://github.com/nao1215/yabase) | Gleam | 2 | Unified, type-safe interface for multiple binary-to-text encodings in Gleam. |
 | [sqluv](https://github.com/nao1215/sqluv) | Go | 64 | Terminal UI for RDBMS and CSV, TSV, and LTSV data from local, HTTPS, and S3 sources. |
 | [mimixbox](https://github.com/nao1215/mimixbox) | Go | 38 | BusyBox-like toolbox for Linux. |
 | [spectest](https://github.com/nao1215/spectest) | Go | 38 | Behavioral testing library for Go for API, HTTP handler, and end-to-end tests. |
@@ -26,7 +14,5 @@
 | [LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource) | C | 7 | Repository for learning XINU, a real-time operating system, from source. |
 | [libvalacore](https://github.com/nao1215/libvalacore) | Vala | 8 | Standard library extension for Vala. |
 | [tornago](https://github.com/nao1215/tornago) | Go | 5 | Simple Tor client and server library in Go. |
-| [fileframe](https://github.com/nao1215/fileframe) | Go | 3 | DataFrame API for CSV, TSV, LTSV, Parquet, and Excel. |
 | [truss](https://github.com/nao1215/truss) | Rust | 4 | Rust image toolkit for CLI, HTTP, and WASM with signed URLs, SSRF protection, and AVIF, WebP, and SVG support. |
-| [mobilepkg](https://github.com/nao1215/mobilepkg) | Go | 2 | Go library and CLI for inspecting mobile app packages and extracting metadata, signing info, diffs, and security findings. |
 | [machine-learning-notes](https://github.com/nao1215/machine-learning-notes) | Jupyter Notebook | 1 | Repository of notes about machine learning. |
