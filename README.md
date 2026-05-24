@@ -1,3 +1,5 @@
+My blog: https://debimate.jp/
+
 | OSS | Language | Stars | Description |
 | :--- | :--- | ---: | :--- |
 | [gup](https://github.com/nao1215/gup) | Go | 576 | Update binaries installed with `go install` using goroutines. |
