@@ -15,4 +15,4 @@
 | [libvalacore](https://github.com/nao1215/libvalacore) | Vala | 8 | Standard library extension for Vala. |
 | [tornago](https://github.com/nao1215/tornago) | Go | 5 | Simple Tor client and server library in Go. |
 | [truss](https://github.com/nao1215/truss) | Rust | 6 | Rust image toolkit for CLI, HTTP, and WASM with signed URLs, SSRF protection, and AVIF, WebP, and SVG support. |
-| [machine-learning-notes](https://github.com/nao1215/machine-learning-notes) | Jupyter Notebook | 1 | Repository of notes about machine learning. |
+
