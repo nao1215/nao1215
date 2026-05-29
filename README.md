@@ -2,7 +2,7 @@ Blog: https://debimate.jp/ (in Japanese)
 
 | OSS | Language | Stars | Description |
 | :--- | :--- | ---: | :--- |
-| [gup](https://github.com/nao1215/gup) | Go | 578 | Update binaries installed with `go install` using goroutines. |
+| [gup](https://github.com/nao1215/gup) | Go | 579 | Update binaries installed with `go install` using goroutines. |
 | [filesql](https://github.com/nao1215/filesql) | Go | 372 | SQL driver for CSV, TSV, LTSV, JSON, Parquet, and Excel with gzip, bzip2, xz, and zstd support. |
 | [sqly](https://github.com/nao1215/sqly) | Go | 144 | Execute SQL against CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files from the shell. |
 | [markdown](https://github.com/nao1215/markdown) | Go | 131 | Simple Markdown and Mermaid builder for Go. |
