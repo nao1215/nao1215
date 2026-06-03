@@ -15,6 +15,7 @@ Blog: https://debimate.jp/ (in Japanese)
 | [horcrux](https://github.com/nao1215/horcrux) | TypeScript | 10 | Split files into encrypted fragments for Node.js and React Native. |
 | [LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource) | C | 7 | Repository for learning XINU, a real-time operating system, from source. |
 | [libvalacore](https://github.com/nao1215/libvalacore) | Vala | 8 | Standard library extension for Vala. |
+| [onionscan](https://github.com/nao1215/onionscan) | Go | 10 | investigating tool the Dark Web. |
 | [tornago](https://github.com/nao1215/tornago) | Go | 5 | Simple Tor client and server library in Go. |
 | [truss](https://github.com/nao1215/truss) | Rust | 6 | Rust image toolkit for CLI, HTTP, and WASM with signed URLs, SSRF protection, and AVIF, WebP, and SVG support. |
 
