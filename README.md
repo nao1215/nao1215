@@ -8,6 +8,7 @@ Blog: https://debimate.jp/ (in Japanese)
 | [markdown](https://github.com/nao1215/markdown) | Go | 132 | Simple Markdown and Mermaid builder for Go. |
 | [oaspec](https://github.com/nao1215/oaspec) | Gleam | 5 | Generate strongly typed Gleam server stubs and client SDK from OpenAPI 3.x specifications |
 | [metamon](https://github.com/nao1215/metamon) | Gleam | 2 | Property-based testing and metamorphic testing combinator library for Gleam |
+| [qrkit](https://github.com/nao1215/qrkit) | Gleam | 2 | Pure Gleam QR code generator with terminal, SVG, and PNG rendering. |
 | [sqluv](https://github.com/nao1215/sqluv) | Go | 64 | Terminal UI for RDBMS and CSV, TSV, and LTSV data from local, HTTPS, and S3 sources. |
 | [mimixbox](https://github.com/nao1215/mimixbox) | Go | 38 | BusyBox-like toolbox for Linux. |
 | [spectest](https://github.com/nao1215/spectest) | Go | 38 | Behavioral testing library for Go for API, HTTP handler, and end-to-end tests. |
@@ -18,4 +19,5 @@ Blog: https://debimate.jp/ (in Japanese)
 | [onionscan](https://github.com/nao1215/onionscan) | Go | 10 | investigating tool the Dark Web. |
 | [tornago](https://github.com/nao1215/tornago) | Go | 5 | Simple Tor client and server library in Go. |
 | [truss](https://github.com/nao1215/truss) | Rust | 6 | Rust image toolkit for CLI, HTTP, and WASM with signed URLs, SSRF protection, and AVIF, WebP, and SVG support. |
+| [omokage](https://github.com/nao1215/omokage) | Go | 2 | Measure how closely writing matches a learned author's style. Japanese & English, local-first CLI for LLMs and humans. |
 
