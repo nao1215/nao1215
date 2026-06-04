@@ -10,8 +10,8 @@ Blog: https://debimate.jp/ (in Japanese)
 | [oaspec](https://github.com/nao1215/oaspec) | Gleam | 5 | Generate strongly typed Gleam server stubs and client SDK from OpenAPI 3.x specifications |
 | [sqlode](https://github.com/nao1215/sqlode) | Gleam | 3 | Generate type-safe Gleam code from SQL schemas and queries. sqlc-style workflow with PostgreSQL, MySQL, and SQLite support. |
 | [metamon](https://github.com/nao1215/metamon) | Gleam | 2 | Property-based testing and metamorphic testing combinator library for Gleam |
-| [qrkit](https://github.com/nao1215/qrkit) | Gleam | 2 | Pure Gleam QR code generator with terminal, SVG, and PNG rendering. |
-| [iso8583tool](https://github.com/nao1215/iso8583tool) | Go | 1 | Command-line tool for debugging and inspecting ISO 8583 payment messages. |
+| [qrkit](https://github.com/nao1215/qrkit) | Gleam | 7 | Pure Gleam QR code generator with terminal, SVG, and PNG rendering. |
+| [iso8583tool](https://github.com/nao1215/iso8583tool) | Go | 2 | Command-line tool for debugging and inspecting ISO 8583 payment messages. |
 | [sensitive](https://github.com/nao1215/sensitive) | Go | 1 | Detect and optionally mask sensitive data in text — credit card numbers, emails, and more |
 | [onionscan](https://github.com/nao1215/onionscan) | Go | 10 | investigating tool the Dark Web. |
 | [tornago](https://github.com/nao1215/tornago) | Go | 5 | Simple Tor client and server library in Go. |
