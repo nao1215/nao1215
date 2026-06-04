@@ -5,11 +5,12 @@ Blog: https://debimate.jp/ (in Japanese)
 | [gup](https://github.com/nao1215/gup) | Go | 579 | Update binaries installed with `go install` using goroutines. |
 | [filesql](https://github.com/nao1215/filesql) | Go | 372 | SQL driver for CSV, TSV, LTSV, JSON, Parquet, and Excel with gzip, bzip2, xz, and zstd support. |
 | [sqly](https://github.com/nao1215/sqly) | Go | 144 | Execute SQL against CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files from the shell. |
+| [sqluv](https://github.com/nao1215/sqluv) | Go | 64 | Terminal UI for RDBMS and CSV, TSV, and LTSV data from local, HTTPS, and S3 sources. |
 | [markdown](https://github.com/nao1215/markdown) | Go | 132 | Simple Markdown and Mermaid builder for Go. |
 | [oaspec](https://github.com/nao1215/oaspec) | Gleam | 5 | Generate strongly typed Gleam server stubs and client SDK from OpenAPI 3.x specifications |
+| [sqlode](https://github.com/nao1215/sqlode) | Gleam | 3 | Generate type-safe Gleam code from SQL schemas and queries. sqlc-style workflow with PostgreSQL, MySQL, and SQLite support. |
 | [metamon](https://github.com/nao1215/metamon) | Gleam | 2 | Property-based testing and metamorphic testing combinator library for Gleam |
 | [qrkit](https://github.com/nao1215/qrkit) | Gleam | 2 | Pure Gleam QR code generator with terminal, SVG, and PNG rendering. |
-| [sqluv](https://github.com/nao1215/sqluv) | Go | 64 | Terminal UI for RDBMS and CSV, TSV, and LTSV data from local, HTTPS, and S3 sources. |
 | [mimixbox](https://github.com/nao1215/mimixbox) | Go | 38 | BusyBox-like toolbox for Linux. |
 | [spectest](https://github.com/nao1215/spectest) | Go | 38 | Behavioral testing library for Go for API, HTTP handler, and end-to-end tests. |
 | [fileprep](https://github.com/nao1215/fileprep) | Go | 17 | Struct-tag-driven preprocessing and validation for CSV, TSV, LTSV, JSON, JSONL, Parquet, and Excel. |
