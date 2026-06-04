@@ -18,6 +18,8 @@ Blog: https://debimate.jp/ (in Japanese)
 | [libvalacore](https://github.com/nao1215/libvalacore) | Vala | 8 | Standard library extension for Vala. |
 | [onionscan](https://github.com/nao1215/onionscan) | Go | 10 | investigating tool the Dark Web. |
 | [tornago](https://github.com/nao1215/tornago) | Go | 5 | Simple Tor client and server library in Go. |
+| [sensitive](https://github.com/nao1215/sensitive) | Go | 1 | Detect and optionally mask sensitive data in text — credit card numbers, emails, and more |
+| [iso8583tool](https://github.com/nao1215/iso8583tool) | Go | 0 | Command-line tool for debugging and inspecting ISO 8583 payment messages. |
 | [truss](https://github.com/nao1215/truss) | Rust | 6 | Rust image toolkit for CLI, HTTP, and WASM with signed URLs, SSRF protection, and AVIF, WebP, and SVG support. |
 | [omokage](https://github.com/nao1215/omokage) | Go | 2 | Measure how closely writing matches a learned author's style. Japanese & English, local-first CLI for LLMs and humans. |
 
