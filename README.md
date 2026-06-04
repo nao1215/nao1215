@@ -13,6 +13,7 @@ Blog: https://debimate.jp/ (in Japanese)
 | [mimixbox](https://github.com/nao1215/mimixbox) | Go | 38 | BusyBox-like toolbox for Linux. |
 | [spectest](https://github.com/nao1215/spectest) | Go | 38 | Behavioral testing library for Go for API, HTTP handler, and end-to-end tests. |
 | [fileprep](https://github.com/nao1215/fileprep) | Go | 17 | Struct-tag-driven preprocessing and validation for CSV, TSV, LTSV, JSON, JSONL, Parquet, and Excel. |
+| [jose](https://github.com/nao1215/jose) | Go | 14 | CLI tool for JOSE (JSON Object Signing and Encryption) |
 | [horcrux](https://github.com/nao1215/horcrux) | TypeScript | 10 | Split files into encrypted fragments for Node.js and React Native. |
 | [LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource) | C | 7 | Repository for learning XINU, a real-time operating system, from source. |
 | [libvalacore](https://github.com/nao1215/libvalacore) | Vala | 8 | Standard library extension for Vala. |
