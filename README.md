@@ -13,7 +13,7 @@ Blog: https://debimate.jp/ (in Japanese)
 | [qrkit](https://github.com/nao1215/qrkit) | Gleam | 7 | Pure Gleam QR code generator with terminal, SVG, and PNG rendering. |
 | [iso8583tool](https://github.com/nao1215/iso8583tool) | Go | 2 | Command-line tool for debugging and inspecting ISO 8583 payment messages. |
 | [sensitive](https://github.com/nao1215/sensitive) | Go | 1 | Detect and optionally mask sensitive data in text — credit card numbers, emails, and more |
-| [onionscan](https://github.com/nao1215/onionscan) | Go | 10 | investigating tool the Dark Web. |
+| [onionscan](https://github.com/nao1215/onionscan) | Go | 11 | investigating tool the Dark Web. |
 | [tornago](https://github.com/nao1215/tornago) | Go | 5 | Simple Tor client and server library in Go. |
 | [gup](https://github.com/nao1215/gup) | Go | 579 | Update binaries installed with `go install` using goroutines. |
 | [spectest](https://github.com/nao1215/spectest) | Go | 38 | Behavioral testing library for Go for API, HTTP handler, and end-to-end tests. |
