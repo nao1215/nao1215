@@ -20,7 +20,7 @@ Blog: https://debimate.jp/ (in Japanese)
 | [markdown](https://github.com/nao1215/markdown) | Go | 132 | Simple Markdown and Mermaid builder for Go. |
 | [jose](https://github.com/nao1215/jose) | Go | 14 | CLI tool for JOSE (JSON Object Signing and Encryption) |
 | [mimixbox](https://github.com/nao1215/mimixbox) | Go | 38 | BusyBox-like toolbox for Linux. |
-| [omokage](https://github.com/nao1215/omokage) | Go | 3 | Measure how closely writing matches a learned author's style. Japanese & English, local-first CLI for LLMs and humans. |
+| [omokage](https://github.com/nao1215/omokage) | Go | 5 | Measure how closely writing matches a learned author's style. Japanese & English, local-first CLI for LLMs and humans. |
 | [truss](https://github.com/nao1215/truss) | Rust | 6 | Rust image toolkit for CLI, HTTP, and WASM with signed URLs, SSRF protection, and AVIF, WebP, and SVG support. |
 | [horcrux](https://github.com/nao1215/horcrux) | TypeScript | 10 | Split files into encrypted fragments for Node.js and React Native. |
 | [LearningXinuFromSource](https://github.com/nao1215/LearningXinuFromSource) | C | 7 | Repository for learning XINU, a real-time operating system, from source. |
