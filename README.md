@@ -19,7 +19,7 @@ Blog: https://debimate.jp/ (in Japanese)
 | [spectest](https://github.com/nao1215/spectest) | Go | 38 | Behavioral testing library for Go for API, HTTP handler, and end-to-end tests. |
 | [markdown](https://github.com/nao1215/markdown) | Go | 132 | Simple Markdown and Mermaid builder for Go. |
 | [jose](https://github.com/nao1215/jose) | Go | 14 | CLI tool for JOSE (JSON Object Signing and Encryption) |
-| [mimixbox](https://github.com/nao1215/mimixbox) | Go | 38 | BusyBox-like toolbox for Linux. |
+| [mimixbox](https://github.com/nao1215/mimixbox) | Go | 38 | BusyBox-inspired toolbox for Linux with additional original commands |
 | [omokage](https://github.com/nao1215/omokage) | Go | 10 | Measure how closely writing matches a learned author's style. Japanese & English, local-first CLI for LLMs and humans. |
 | [truss](https://github.com/nao1215/truss) | Rust | 6 | Rust image toolkit for CLI, HTTP, and WASM with signed URLs, SSRF protection, and AVIF, WebP, and SVG support. |
 | [horcrux](https://github.com/nao1215/horcrux) | TypeScript | 10 | Split files into encrypted fragments for Node.js and React Native. |
