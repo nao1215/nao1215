@@ -3,10 +3,10 @@ Blog: https://debimate.jp/ (in Japanese)
 
 | OSS | Language | Stars | Description |
 | :--- | :--- | ---: | :--- |
-| [filesql](https://github.com/nao1215/filesql) | Go | 372 | SQL driver for CSV, TSV, LTSV, JSON, Parquet, and Excel with gzip, bzip2, xz, and zstd support. |
+| [filesql](https://github.com/nao1215/filesql) | Go | 371 | SQL driver for CSV, TSV, LTSV, JSON, Parquet, and Excel with gzip, bzip2, xz, and zstd support. |
 | [sqly](https://github.com/nao1215/sqly) | Go | 145 | Execute SQL against CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files from the shell. |
 | [sqluv](https://github.com/nao1215/sqluv) | Go | 64 | Terminal UI for RDBMS and CSV, TSV, and LTSV data from local, HTTPS, and S3 sources. |
-| [fileprep](https://github.com/nao1215/fileprep) | Go | 17 | Struct-tag-driven preprocessing and validation for CSV, TSV, LTSV, JSON, JSONL, Parquet, and Excel. |
+| [fileprep](https://github.com/nao1215/fileprep) | Go | 18 | Struct-tag-driven preprocessing and validation for CSV, TSV, LTSV, JSON, JSONL, Parquet, and Excel. |
 | [oaspec](https://github.com/nao1215/oaspec) | Gleam | 5 | Generate strongly typed Gleam server stubs and client SDK from OpenAPI 3.x specifications |
 | [sqlode](https://github.com/nao1215/sqlode) | Gleam | 3 | Generate type-safe Gleam code from SQL schemas and queries. sqlc-style workflow with PostgreSQL, MySQL, and SQLite support. |
 | [metamon](https://github.com/nao1215/metamon) | Gleam | 2 | Property-based testing and metamorphic testing combinator library for Gleam |
