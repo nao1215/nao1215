@@ -52,13 +52,3 @@
 ```
 
     
-
----
-
-![](./4-productive-time.svg)
-
-```
-![](https://raw.githubusercontent.com/nao1215/nao1215/master/profile-summary-card-output/aura/4-productive-time.svg)
-```
-
-    
