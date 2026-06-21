@@ -15,7 +15,7 @@ Blog: https://debimate.jp/ (in Japanese)
 | [sensitive](https://github.com/nao1215/sensitive) | Go | 1 | Detect and optionally mask sensitive data in text — credit card numbers, emails, and more |
 | [onionscan](https://github.com/nao1215/onionscan) | Go | 13 | investigating tool the Dark Web. |
 | [tornago](https://github.com/nao1215/tornago) | Go | 5 | Simple Tor client and server library in Go. |
-| [gup](https://github.com/nao1215/gup) | Go | 581 | Manage Go-installed binaries in $GOBIN: update, export/import, and migrate your toolset across machines |
+| [gup](https://github.com/nao1215/gup) | Go | 581 | Fast manager for Go-installed binaries in $GOBIN: update, export/import, and migrate toolsets across machines |
 | [spectest](https://github.com/nao1215/spectest) | Go | 38 | Behavioral testing library for Go for API, HTTP handler, and end-to-end tests. |
 | [markdown](https://github.com/nao1215/markdown) | Go | 132 | Simple Markdown and Mermaid builder for Go. |
 | [jose](https://github.com/nao1215/jose) | Go | 14 | CLI tool for JOSE (JSON Object Signing and Encryption) |
