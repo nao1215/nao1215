@@ -15,9 +15,9 @@ Blog: https://debimate.jp/ (in Japanese)
 | [sensitive](https://github.com/nao1215/sensitive) | Go | 1 | Detect and optionally mask sensitive data in text — credit card numbers, emails, and more |
 | [onionscan](https://github.com/nao1215/onionscan) | Go | 13 | investigating tool the Dark Web. |
 | [tornago](https://github.com/nao1215/tornago) | Go | 5 | Simple Tor client and server library in Go. |
-| [gup](https://github.com/nao1215/gup) | Go | 583 | Fast manager for Go-installed binaries in $GOBIN: update, export/import, and migrate toolsets across machines |
+| [gup](https://github.com/nao1215/gup) | Go | 584 | Fast manager for Go-installed binaries in $GOBIN: update, export/import, and migrate toolsets across machines |
 | [spectest](https://github.com/nao1215/spectest) | Go | 38 | Behavioral testing library for Go for API, HTTP handler, and end-to-end tests. |
-| [atago](https://github.com/nao1215/atago)  | Go | 1 | End-to-end test runner for CLI tools: plain-YAML specs assert exit codes, output, files, JSON, and snapshots — with HTTP, DB, SSH, gRPC, and headless-browser peers |
+| [atago](https://github.com/nao1215/atago) | Go | 1 | End-to-end test runner for CLI tools: plain-YAML specs assert exit codes, output, files, JSON, and snapshots — with HTTP, DB, SSH, gRPC, and headless-browser peers |
 | [markdown](https://github.com/nao1215/markdown) | Go | 132 | Simple Markdown and Mermaid builder for Go. |
 | [jose](https://github.com/nao1215/jose) | Go | 14 | CLI tool for JOSE (JSON Object Signing and Encryption) |
 | [mimixbox](https://github.com/nao1215/mimixbox) | Go | 38 | BusyBox-inspired toolbox for Linux with additional original commands |
