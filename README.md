@@ -3,8 +3,8 @@ Blog: https://debimate.jp/ (in Japanese)
 
 | OSS | Language | Stars | Description |
 | :--- | :--- | ---: | :--- |
-| [filesql](https://github.com/nao1215/filesql) | Go | 372 | SQL driver for CSV, TSV, LTSV, JSON, Parquet, and Excel with gzip, bzip2, xz, and zstd support. |
-| [sqly](https://github.com/nao1215/sqly) | Go | 145 | Execute SQL against CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files from the shell. |
+| [filesql](https://github.com/nao1215/filesql) | Go | 373 | SQL driver for CSV, TSV, LTSV, JSON, Parquet, and Excel with gzip, bzip2, xz, and zstd support. |
+| [sqly](https://github.com/nao1215/sqly) | Go | 146 | Execute SQL against CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files from the shell. |
 | [sqluv](https://github.com/nao1215/sqluv) | Go | 64 | Terminal UI for RDBMS and CSV, TSV, and LTSV data from local, HTTPS, and S3 sources. |
 | [fileprep](https://github.com/nao1215/fileprep) | Go | 18 | Struct-tag-driven preprocessing and validation for CSV, TSV, LTSV, JSON, JSONL, Parquet, and Excel. |
 | [oaspec](https://github.com/nao1215/oaspec) | Gleam | 5 | Generate strongly typed Gleam server stubs and client SDK from OpenAPI 3.x specifications |
@@ -17,7 +17,7 @@ Blog: https://debimate.jp/ (in Japanese)
 | [tornago](https://github.com/nao1215/tornago) | Go | 5 | Simple Tor client and server library in Go. |
 | [gup](https://github.com/nao1215/gup) | Go | 584 | Fast manager for Go-installed binaries in $GOBIN: update, export/import, and migrate toolsets across machines |
 | [spectest](https://github.com/nao1215/spectest) | Go | 38 | Behavioral testing library for Go for API, HTTP handler, and end-to-end tests. |
-| [atago](https://github.com/nao1215/atago) | Go | 3 | Tests real CLI behavior from plain YAML: exit codes, output, generated files, snapshots, and interactive terminals (PTY/TUI) |
+| [atago](https://github.com/nao1215/atago) | Go | 4 | Tests real CLI behavior from plain YAML: exit codes, output, generated files, snapshots, and interactive terminals (PTY/TUI) |
 | [markdown](https://github.com/nao1215/markdown) | Go | 132 | Simple Markdown and Mermaid builder for Go. |
 | [jose](https://github.com/nao1215/jose) | Go | 14 | CLI tool for JOSE (JSON Object Signing and Encryption) |
 | [mimixbox](https://github.com/nao1215/mimixbox) | Go | 39 | BusyBox-inspired toolbox for Linux with additional original commands |
