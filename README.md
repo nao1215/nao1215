@@ -19,6 +19,7 @@ Blog: https://debimate.jp/ (in Japanese)
 | [spectest](https://github.com/nao1215/spectest) | Go | 38 | Behavioral testing library for Go for API, HTTP handler, and end-to-end tests. |
 | [atago](https://github.com/nao1215/atago) | Go | 7 | Tests real CLI behavior from plain YAML: exit codes, output, generated files, snapshots, and interactive terminals (PTY/TUI) |
 | [markdown](https://github.com/nao1215/markdown) | Go | 132 | Simple Markdown and Mermaid builder for Go. |
+| [prompt](https://github.com/nao1215/prompt) | Go | 7 | interactive terminal prompts library |
 | [jose](https://github.com/nao1215/jose) | Go | 14 | CLI tool for JOSE (JSON Object Signing and Encryption) |
 | [mimixbox](https://github.com/nao1215/mimixbox) | Go | 39 | BusyBox-inspired toolbox for Linux with additional original commands |
 | [omokage](https://github.com/nao1215/omokage) | Go | 11 | Measure how closely writing matches a learned author's style. Japanese & English, local-first CLI for LLMs and humans. |
