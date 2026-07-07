@@ -3,8 +3,8 @@ Blog: https://debimate.jp/ (in Japanese)
 
 | OSS | Language | Stars | Description |
 | :--- | :--- | ---: | :--- |
-| [filesql](https://github.com/nao1215/filesql) | Go | 373 | SQL driver for CSV, TSV, LTSV, JSON, Parquet, and Excel with gzip, bzip2, xz, and zstd support. |
-| [sqly](https://github.com/nao1215/sqly) | Go | 146 | Execute SQL against CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files from the shell. |
+| [filesql](https://github.com/nao1215/filesql) | Go | 372 | SQL driver for CSV, TSV, LTSV, JSON, Parquet, and Excel with gzip, bzip2, xz, and zstd support. |
+| [sqly](https://github.com/nao1215/sqly) | Go | 147 | Execute SQL against CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files from the shell. |
 | [sqluv](https://github.com/nao1215/sqluv) | Go | 64 | Terminal UI for RDBMS and CSV, TSV, and LTSV data from local, HTTPS, and S3 sources. |
 | [fileprep](https://github.com/nao1215/fileprep) | Go | 18 | Struct-tag-driven preprocessing and validation for CSV, TSV, LTSV, JSON, JSONL, Parquet, and Excel. |
 | [oaspec](https://github.com/nao1215/oaspec) | Gleam | 5 | Generate strongly typed Gleam server stubs and client SDK from OpenAPI 3.x specifications |
@@ -13,9 +13,9 @@ Blog: https://debimate.jp/ (in Japanese)
 | [qrkit](https://github.com/nao1215/qrkit) | Gleam | 8 | Pure Gleam QR code generator with terminal, SVG, and PNG rendering. |
 | [iso8583tool](https://github.com/nao1215/iso8583tool) | Go | 2 | Command-line tool for debugging and inspecting ISO 8583 payment messages. |
 | [sensitive](https://github.com/nao1215/sensitive) | Go | 1 | Detect and optionally mask sensitive data in text — credit card numbers, emails, and more |
-| [onionscan](https://github.com/nao1215/onionscan) | Go | 14 | investigating tool the Dark Web. |
+| [onionscan](https://github.com/nao1215/onionscan) | Go | 13 | investigating tool the Dark Web. |
 | [tornago](https://github.com/nao1215/tornago) | Go | 5 | Simple Tor client and server library in Go. |
-| [gup](https://github.com/nao1215/gup) | Go | 585 | Fast manager for Go-installed binaries in $GOBIN: update, export/import, and migrate toolsets across machines |
+| [gup](https://github.com/nao1215/gup) | Go | 586 | Fast manager for Go-installed binaries in $GOBIN: update, export/import, and migrate toolsets across machines |
 | [spectest](https://github.com/nao1215/spectest) | Go | 38 | Behavioral testing library for Go for API, HTTP handler, and end-to-end tests. |
 | [atago](https://github.com/nao1215/atago) | Go | 7 | Tests real CLI behavior from plain YAML: exit codes, output, generated files, snapshots, and interactive terminals (PTY/TUI) |
 | [markdown](https://github.com/nao1215/markdown) | Go | 132 | Simple Markdown and Mermaid builder for Go. |
