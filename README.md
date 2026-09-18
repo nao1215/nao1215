@@ -7,7 +7,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | [gup](https://github.com/nao1215/gup) | 602 | Update binaries installed with `go install` in parallel, and move the same toolset to another machine via export/import. |
 | [sqly](https://github.com/nao1215/sqly) | 178 | Interactive shell that runs SQL against CSV, JSON, Parquet, Excel, and other files, with JOINs across formats and write-back. |
 | [mimixbox](https://github.com/nao1215/mimixbox) | 39 | BusyBox-inspired toolbox for Linux, with many commands in a single binary. |
-| [atago](https://github.com/nao1215/atago) | 20 | Test CLI behavior from plain YAML: exit codes, output, files, snapshots, and interactive terminals (PTY/TUI). |
+| [atago](https://github.com/nao1215/atago) | 18 | Test CLI behavior from plain YAML: exit codes, output, files, snapshots, and interactive terminals (PTY/TUI). |
 | [onionscan](https://github.com/nao1215/onionscan) | 18 | Investigate Tor onion services for misconfigurations and information leaks. |
 | [omokage](https://github.com/nao1215/omokage) | 17 | Measure how closely a text matches a learned author's style. Japanese and English, runs locally. |
 | [jose](https://github.com/nao1215/jose) | 15 | Generate keys (JWK), sign and verify (JWS), and encrypt and decrypt (JWE) from the shell. |
@@ -24,7 +24,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | :--- | ---: | :--- |
 | [filesql](https://github.com/nao1215/filesql) | 383 | Load CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files (including compressed ones) into SQLite and query them through `database/sql`. |
 | [markdown](https://github.com/nao1215/markdown) | 141 | Build Markdown and Mermaid diagrams from Go code. Stable API since v1. |
-| [prompt](https://github.com/nao1215/prompt) | 10 | Interactive prompt and REPL library with completion and history, aiming to succeed go-prompt. |
+| [prompt](https://github.com/nao1215/prompt) | 11 | Interactive prompt and REPL library with completion and history, aiming to succeed go-prompt. |
 | [imaging](https://github.com/nao1215/imaging) | 10 | Image processing (resize, crop, rotate, blur, and more). Maintained fork of disintegration/imaging. |
 | [tornago](https://github.com/nao1215/tornago) | 8 | Tor client and server library for Go. |
 | [sensitive](https://github.com/nao1215/sensitive) | 2 | Detect and optionally mask sensitive data in text, such as credit card numbers and email addresses. |
@@ -43,7 +43,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | [textmetrics](https://github.com/nao1215/textmetrics) | 5 | Edit distances, similarity scores, LCS, and diff. |
 | [yabase](https://github.com/nao1215/yabase) | 4 | One type-safe API for Base64, Base32, and other binary-to-text encodings. |
 | [automata](https://github.com/nao1215/automata) | 4 | Cron, RRULE, retries, filesystem events, and finite automata. |
-| [finanza](https://github.com/nao1215/finanza) | 4 | Decimal arithmetic, currency formatting, time value of money, and payment card validation. |
+| [finanza](https://github.com/nao1215/finanza) | 5 | Decimal arithmetic, currency formatting, time value of money, and payment card validation. |
 | [multipartkit](https://github.com/nao1215/multipartkit) | 3 | Parse and build multipart bodies such as file uploads. |
 | [mimetype](https://github.com/nao1215/mimetype) | 3 | MIME type lookup by extension and file type detection by magic number. |
 | [ssevents](https://github.com/nao1215/ssevents) | 2 | Build and parse Server-Sent Events. |
