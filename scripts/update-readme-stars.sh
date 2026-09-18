@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# Rewrite the "Stars" column of every Markdown table in README.md whose first
+# cell is a GitHub repository link. Other columns are left untouched, so tables
+# may have any number of columns as long as the header contains "Stars".
 
 set -euo pipefail
 
@@ -29,7 +32,7 @@ fetch_stars() {
   local stars
 
   for attempt in 1 2 3; do
-    if stars="$(gh api "repos/${owner}/${repo}" --jq '.stargazers_count' 2>/dev/null)"; then
+    if stars="$(gh api "repos/${owner}/${repo}" --jq '.stargazers_count')"; then
       printf '%s\n' "$stars"
       return 0
     fi
@@ -41,67 +44,64 @@ fetch_stars() {
   return 1
 }
 
+# Split a table row on unescaped "|" (a literal "\|" inside a cell is kept).
+split_row() {
+  local line="$1"
+  local placeholder=$'\x1f'
+
+  line="${line//\\|/$placeholder}"
+  IFS='|' read -r -a CELLS <<<"$line"
+  local i
+  for i in "${!CELLS[@]}"; do
+    CELLS[i]="${CELLS[i]//$placeholder/\\|}"
+  done
+}
+
 tmp_file="$(mktemp)"
 trap 'rm -f "$tmp_file"' EXIT
 readonly REPO_LINK_PATTERN='^\[([^][]+)\]\(https://github\.com/([^/]+)/([^)/]+)\)$'
 
+stars_index=-1
+in_table=false
+
 while IFS= read -r line; do
-  if [[ "$line" == '| OSS | Language | Description |' ]]; then
-    printf '| OSS | Language | Stars | Description |\n' >>"$tmp_file"
-    continue
-  fi
-
-  if [[ "$line" == '| OSS | Language | Stars | Description |' ]]; then
-    printf '%s\n' "$line" >>"$tmp_file"
-    continue
-  fi
-
-  if [[ "$line" == '| :--- | :--- | :--- |' ]]; then
-    printf '| :--- | :--- | ---: | :--- |\n' >>"$tmp_file"
-    continue
-  fi
-
-  if [[ "$line" == '| :--- | :--- | ---: | :--- |' ]]; then
-    printf '%s\n' "$line" >>"$tmp_file"
-    continue
-  fi
-
   if [[ "$line" != \|* ]]; then
+    in_table=false
+    stars_index=-1
     printf '%s\n' "$line" >>"$tmp_file"
     continue
   fi
 
-  IFS='|' read -r _ raw_name raw_lang raw_col3 raw_col4 _ <<<"$line"
+  split_row "$line"
 
-  name_cell="$(trim "$raw_name")"
-  lang_cell="$(trim "$raw_lang")"
-  col3_cell="$(trim "$raw_col3")"
-  col4_cell="$(trim "$raw_col4")"
-
-  if [[ ! $name_cell =~ $REPO_LINK_PATTERN ]]; then
+  # The first row of a table is its header: remember where "Stars" is.
+  if [[ "$in_table" == false ]]; then
+    in_table=true
+    stars_index=-1
+    for i in "${!CELLS[@]}"; do
+      if [[ "$(trim "${CELLS[i]}")" == "Stars" ]]; then
+        stars_index=$i
+      fi
+    done
     printf '%s\n' "$line" >>"$tmp_file"
     continue
   fi
 
-  repo_name="${BASH_REMATCH[1]}"
+  name_cell="$(trim "${CELLS[1]:-}")"
+  if ((stars_index < 0)) || [[ ! $name_cell =~ $REPO_LINK_PATTERN ]]; then
+    printf '%s\n' "$line" >>"$tmp_file"
+    continue
+  fi
+
   owner="${BASH_REMATCH[2]}"
   repo="${BASH_REMATCH[3]}"
+  CELLS[stars_index]=" $(fetch_stars "$owner" "$repo") "
 
-  if [[ -n "$col4_cell" ]]; then
-    description_cell="$col4_cell"
-  else
-    description_cell="$col3_cell"
-  fi
-
-  stars="$(fetch_stars "$owner" "$repo")"
-
-  printf '| [%s](https://github.com/%s/%s) | %s | %s | %s |\n' \
-    "$repo_name" \
-    "$owner" \
-    "$repo" \
-    "$lang_cell" \
-    "$stars" \
-    "$description_cell" >>"$tmp_file"
+  out=""
+  for ((i = 1; i < ${#CELLS[@]}; i++)); do
+    out+="|${CELLS[i]}"
+  done
+  printf '%s|\n' "$out" >>"$tmp_file"
 done <"$README_PATH"
 
 mv "$tmp_file" "$README_PATH"
