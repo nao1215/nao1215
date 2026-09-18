@@ -1,3 +1,5 @@
+Only projects I actively maintain are listed here. Archived and unmaintained repositories are left out.
+
 ### Go CLI tools
 
 | OSS | Stars | Description |
