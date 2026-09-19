@@ -54,7 +54,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 
 | OSS | Stars | Description |
 | :--- | ---: | :--- |
-| [truss](https://github.com/nao1215/truss) | 9 | Image toolkit for CLI, HTTP, and WASM with signed URLs, SSRF protection, and AVIF, WebP, and SVG support. |
+| [truss](https://github.com/nao1215/truss) | 10 | Image toolkit for CLI, HTTP, and WASM with signed URLs, SSRF protection, and AVIF, WebP, and SVG support. |
 
 ### TypeScript
 
