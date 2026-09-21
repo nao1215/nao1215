@@ -5,7 +5,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | OSS | Stars | Description |
 | :--- | ---: | :--- |
 | [gup](https://github.com/nao1215/gup) | 603 | Update binaries installed with `go install` in parallel, and move the same toolset to another machine via export/import. |
-| [sqly](https://github.com/nao1215/sqly) | 186 | Interactive shell that runs SQL against CSV, JSON, Parquet, Excel, and other files, with JOINs across formats and write-back. |
+| [sqly](https://github.com/nao1215/sqly) | 187 | Interactive shell that runs SQL against CSV, JSON, Parquet, Excel, and other files, with JOINs across formats and write-back. |
 | [mimixbox](https://github.com/nao1215/mimixbox) | 39 | BusyBox-inspired toolbox for Linux, with many commands in a single binary. |
 | [atago](https://github.com/nao1215/atago) | 18 | Test CLI behavior from plain YAML: exit codes, output, files, snapshots, and interactive terminals (PTY/TUI). |
 | [onionscan](https://github.com/nao1215/onionscan) | 18 | Investigate Tor onion services for misconfigurations and information leaks. |
