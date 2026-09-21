@@ -2,7 +2,7 @@ name: Update README Stars
 
 on:
   schedule:
-    - cron: "0 15 * * *" # 00:00 JST
+    - cron: "0 * * * *" # 毎時0分
   workflow_dispatch:
 
 permissions:
