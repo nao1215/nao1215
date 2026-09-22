@@ -12,7 +12,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | [omokage](https://github.com/nao1215/omokage) | 17 | Measure how closely a text matches a learned author's style. Japanese and English, runs locally. |
 | [jose](https://github.com/nao1215/jose) | 15 | Generate keys (JWK), sign and verify (JWS), and encrypt and decrypt (JWE) from the shell. |
 | [mobilepkg](https://github.com/nao1215/mobilepkg) | 6 | Inspect APK, XAPK, APKS, AAB, and IPA files without SDKs: metadata, signing info, diffs, and security findings. |
-| [jsonize](https://github.com/nao1215/jsonize) | 18 | Make JSON from command output, files, and arguments for the next command in a pipeline (`jz`). |
+| [jsonize](https://github.com/nao1215/jsonize) | 19 | Make JSON from command output, files, and arguments for the next command in a pipeline (`jz`). |
 | [iso8583tool](https://github.com/nao1215/iso8583tool) | 6 | Debug and inspect ISO 8583 payment messages from the command line. |
 | [career](https://github.com/nao1215/career) | 4 | Generate a Japanese resume (rirekisho / shokumu keirekisho) and an English CV as PDF from a single YAML file. |
 | [block](https://github.com/nao1215/block) | 2 | Pin the CLI versions used in blockchain development with a lock file, so developers and CI use the same tools. |
