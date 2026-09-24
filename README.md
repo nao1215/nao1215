@@ -22,7 +22,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 
 | OSS | Stars | Description |
 | :--- | ---: | :--- |
-| [filesql](https://github.com/nao1215/filesql) | 385 | Load CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files (including compressed ones) into SQLite and query them through `database/sql`. |
+| [filesql](https://github.com/nao1215/filesql) | 386 | Load CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files (including compressed ones) into SQLite and query them through `database/sql`. |
 | [markdown](https://github.com/nao1215/markdown) | 142 | Build Markdown and Mermaid diagrams from Go code. Stable API since v1. |
 | [prompt](https://github.com/nao1215/prompt) | 12 | Interactive prompt and REPL library with completion and history, aiming to succeed go-prompt. |
 | [imaging](https://github.com/nao1215/imaging) | 10 | Image processing (resize, crop, rotate, blur, and more). Maintained fork of disintegration/imaging. |
