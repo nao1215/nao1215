@@ -46,7 +46,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | [finanza](https://github.com/nao1215/finanza) | 5 | Decimal arithmetic, currency formatting, time value of money, and payment card validation. |
 | [multipartkit](https://github.com/nao1215/multipartkit) | 3 | Parse and build multipart bodies such as file uploads. |
 | [mimetype](https://github.com/nao1215/mimetype) | 3 | MIME type lookup by extension and file type detection by magic number. |
-| [ssevents](https://github.com/nao1215/ssevents) | 2 | Build and parse Server-Sent Events. |
+| [ssevents](https://github.com/nao1215/ssevents) | 3 | Build and parse Server-Sent Events. |
 | [packkit](https://github.com/nao1215/packkit) | 2 | Compression (gzip, zstd, xz, and more) and archives (tar, zip, 7z, and more) with no runtime dependencies. |
 | [sparklinekit](https://github.com/nao1215/sparklinekit) | 1 | Draw sparklines as terminal text, SVG, or PNG. |
 
