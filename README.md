@@ -16,7 +16,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | [iso8583tool](https://github.com/nao1215/iso8583tool) | 6 | Debug and inspect ISO 8583 payment messages from the command line. |
 | [career](https://github.com/nao1215/career) | 4 | Generate a Japanese resume (rirekisho / shokumu keirekisho) and an English CV as PDF from a single YAML file. |
 | [block](https://github.com/nao1215/block) | 2 | Pin the CLI versions used in blockchain development with a lock file, so developers and CI use the same tools. |
-| [himorime](https://github.com/nao1215/himorime) | 2 | Performance budgets and regression checks for CLIs from plain YAML: latency, throughput, CPU time, and memory. |
+| [himorime](https://github.com/nao1215/himorime) | 3 | Performance budgets and regression checks for CLIs from plain YAML: latency, throughput, CPU time, and memory. |
 
 ### Go libraries
 
