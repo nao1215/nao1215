@@ -26,7 +26,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | [markdown](https://github.com/nao1215/markdown) | 142 | Build Markdown and Mermaid diagrams from Go code. Stable API since v1. |
 | [prompt](https://github.com/nao1215/prompt) | 12 | Interactive prompt and REPL library with completion and history, aiming to succeed go-prompt. |
 | [imaging](https://github.com/nao1215/imaging) | 10 | Image processing (resize, crop, rotate, blur, and more). Maintained fork of disintegration/imaging. |
-| [tornago](https://github.com/nao1215/tornago) | 8 | Tor client and server library for Go. |
+| [tornago](https://github.com/nao1215/tornago) | 9 | Tor client and server library for Go. |
 | [sensitive](https://github.com/nao1215/sensitive) | 2 | Detect and optionally mask sensitive data in text, such as credit card numbers and email addresses. |
 
 ### Gleam packages
