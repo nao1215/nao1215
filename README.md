@@ -4,7 +4,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 
 | OSS | Stars | Description |
 | :--- | ---: | :--- |
-| [gup](https://github.com/nao1215/gup) | 611 | Update binaries installed with `go install` in parallel, and move the same toolset to another machine via export/import. |
+| [gup](https://github.com/nao1215/gup) | 612 | Update binaries installed with `go install` in parallel, and move the same toolset to another machine via export/import. |
 | [sqly](https://github.com/nao1215/sqly) | 191 | Interactive shell that runs SQL against CSV, JSON, Parquet, Excel, and other files, with JOINs across formats and write-back. |
 | [mimixbox](https://github.com/nao1215/mimixbox) | 39 | BusyBox-inspired toolbox for Linux, with many commands in a single binary. |
 | [atago](https://github.com/nao1215/atago) | 18 | Test CLI behavior from plain YAML: exit codes, output, files, snapshots, and interactive terminals (PTY/TUI). |
@@ -56,7 +56,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | OSS | Stars | Description |
 | :--- | ---: | :--- |
 | [truss](https://github.com/nao1215/truss) | 10 | Image toolkit for CLI, HTTP, and WASM with signed URLs, SSRF protection, and AVIF, WebP, and SVG support. |
-| [bluesky-terminal-client](https://github.com/nao1215/bluesky-terminal-client) | 5 | Unofficial Bluesky client for the terminal that shows pictures and videos right in it (kitty graphics, sixel, iTerm2) |
+| [bluesky-terminal-client](https://github.com/nao1215/bluesky-terminal-client) | 6 | Unofficial Bluesky client for the terminal that shows pictures and videos right in it (kitty graphics, sixel, iTerm2) |
 
 ### TypeScript
 
