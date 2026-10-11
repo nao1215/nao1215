@@ -35,7 +35,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | OSS | Stars | Description |
 | :--- | ---: | :--- |
 | [qrkit](https://github.com/nao1215/qrkit) | 11 | Generate QR codes and render them to the terminal, SVG, or PNG. |
-| [oaspec](https://github.com/nao1215/oaspec) | 9 | Generate typed server stubs and client SDKs from OpenAPI 3.x specifications. |
+| [oaspec](https://github.com/nao1215/oaspec) | 10 | Generate typed server stubs and client SDKs from OpenAPI 3.x specifications. |
 | [geokit](https://github.com/nao1215/geokit) | 7 | Geographic math: haversine distance, bearing, geohash, polyline, Web Mercator, and bounding boxes. |
 | [sqlode](https://github.com/nao1215/sqlode) | 5 | Generate type-safe code from SQL schemas and queries, sqlc-style, for PostgreSQL, MySQL, and SQLite. |
 | [metamon](https://github.com/nao1215/metamon) | 6 | Property-based and metamorphic testing library. |
