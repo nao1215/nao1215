@@ -38,7 +38,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | [oaspec](https://github.com/nao1215/oaspec) | 10 | Generate typed server stubs and client SDKs from OpenAPI 3.x specifications. |
 | [geokit](https://github.com/nao1215/geokit) | 7 | Geographic math: haversine distance, bearing, geohash, polyline, Web Mercator, and bounding boxes. |
 | [sqlode](https://github.com/nao1215/sqlode) | 5 | Generate type-safe code from SQL schemas and queries, sqlc-style, for PostgreSQL, MySQL, and SQLite. |
-| [metamon](https://github.com/nao1215/metamon) | 6 | Property-based and metamorphic testing library. |
+| [metamon](https://github.com/nao1215/metamon) | 7 | Property-based and metamorphic testing library. |
 | [dataprep](https://github.com/nao1215/dataprep) | 5 | Compose preprocessing and validation from small, typed building blocks. |
 | [datastream](https://github.com/nao1215/datastream) | 5 | Lazy, composable, resource-safe streams on Erlang and JavaScript. |
 | [textmetrics](https://github.com/nao1215/textmetrics) | 5 | Edit distances, similarity scores, LCS, and diff. |
