@@ -34,7 +34,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 ---
 
 <details>
-<summary>Gleam, Rust, and TypeScript</summary>
+<summary>Gleam, Rust, and TypeScript OSS</summary>
 
 ### Gleam packages
 
