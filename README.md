@@ -18,6 +18,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | [block](https://github.com/nao1215/block) | 2 | Pin the CLI versions used in blockchain development with a lock file, so developers and CI use the same tools. |
 | [himorime](https://github.com/nao1215/himorime) | 3 | Performance budgets and regression checks for CLIs from plain YAML: latency, throughput, CPU time, and memory. |
 | [rabbitrun](https://github.com/nao1215/rabbitrun) | 1 | A runner game with anime girls for Windows, macOS, and Linux |
+| [gozen](https://github.com/nao1215/gozen) | 1 | YAML-first 2D RPG framework for Go and Ebitengine |
 
 ### Go libraries
 
