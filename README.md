@@ -31,6 +31,9 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | [tornago](https://github.com/nao1215/tornago) | 9 | Tor client and server library for Go. |
 | [sensitive](https://github.com/nao1215/sensitive) | 2 | Detect and optionally mask sensitive data in text, such as credit card numbers and email addresses. |
 
+<details>
+<summary>Gleam, Rust, and TypeScript</summary>
+
 ### Gleam packages
 
 | OSS | Stars | Description |
@@ -64,3 +67,5 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | OSS | Stars | Description |
 | :--- | ---: | :--- |
 | [horcrux](https://github.com/nao1215/horcrux) | 11 | Split files into encrypted fragments and restore them, for Node.js and React Native. |
+
+</details>
