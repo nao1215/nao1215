@@ -58,7 +58,6 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | [career](https://github.com/nao1215/career) | 4 | Generate a Japanese resume (rirekisho / shokumu keirekisho) and an English CV as PDF from a single YAML file. |
 | [block](https://github.com/nao1215/block) | 2 | Pin the CLI versions used in blockchain development with a lock file, so developers and CI use the same tools. |
 | [himorime](https://github.com/nao1215/himorime) | 3 | Performance budgets and regression checks for CLIs from plain YAML: latency, throughput, CPU time, and memory. |
-| [rabbitrun](https://github.com/nao1215/rabbitrun) | 1 | A runner game with anime girls for Windows, macOS, and Linux |
 
 ### Go libraries
 
@@ -70,4 +69,10 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | [imaging](https://github.com/nao1215/imaging) | 10 | Image processing (resize, crop, rotate, blur, and more). Maintained fork of disintegration/imaging. |
 | [tornago](https://github.com/nao1215/tornago) | 9 | Tor client and server library for Go. |
 | [sensitive](https://github.com/nao1215/sensitive) | 2 | Detect and optionally mask sensitive data in text, such as credit card numbers and email addresses. |
+
+### Games with Ebitengine
+
+| OSS | Stars | Description |
+| :--- | ---: | :--- |
+| [rabbitrun](https://github.com/nao1215/rabbitrun) | 1 | A runner game with anime girls for Windows, macOS, and Linux |
 | [gozen](https://github.com/nao1215/gozen) | 1 | YAML-first 2D RPG and visual novel framework for Ebitengine, with a CLI that checks, simulates, and balances the game. |
