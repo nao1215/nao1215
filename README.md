@@ -49,7 +49,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | [sqly](https://github.com/nao1215/sqly) | 193 | Interactive shell that runs SQL against CSV, JSON, Parquet, Excel, and other files, with JOINs across formats and write-back. |
 | [mimixbox](https://github.com/nao1215/mimixbox) | 39 | BusyBox-inspired toolbox for Linux, with many commands in a single binary. |
 | [atago](https://github.com/nao1215/atago) | 18 | Test CLI behavior from plain YAML: exit codes, output, files, snapshots, and interactive terminals (PTY/TUI). |
-| [onionscan](https://github.com/nao1215/onionscan) | 18 | Investigate Tor onion services for misconfigurations and information leaks. |
+| [onionscan](https://github.com/nao1215/onionscan) | 19 | Investigate Tor onion services for misconfigurations and information leaks. |
 | [omokage](https://github.com/nao1215/omokage) | 17 | Measure how closely a text matches a learned author's style. Japanese and English, runs locally. |
 | [jose](https://github.com/nao1215/jose) | 15 | Generate keys (JWK), sign and verify (JWS), and encrypt and decrypt (JWE) from the shell. |
 | [mobilepkg](https://github.com/nao1215/mobilepkg) | 6 | Inspect APK, XAPK, APKS, AAB, and IPA files without SDKs: metadata, signing info, diffs, and security findings. |
