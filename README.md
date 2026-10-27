@@ -75,4 +75,5 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | OSS | Stars | Description |
 | :--- | ---: | :--- |
 | [rabbitrun](https://github.com/nao1215/rabbitrun) | 1 | A runner game with anime girls for Windows, macOS, and Linux |
+| [succubus-live](https://github.com/nao1215/succubus-live) | 0 | A streaming-site game with succubus VTubers for web browsers, Windows, macOS, and Linux |
 | [gozen](https://github.com/nao1215/gozen) | 1 | Create 2D RPGs, visual novels and strategy games with YAML and a CLI. No coding required. Powered by Ebitengine. |
