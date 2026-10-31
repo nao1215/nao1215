@@ -45,7 +45,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 
 | OSS | Stars | Description |
 | :--- | ---: | :--- |
-| [gup](https://github.com/nao1215/gup) | 615 | Update binaries installed with `go install` in parallel, and move the same toolset to another machine via export/import. |
+| [gup](https://github.com/nao1215/gup) | 616 | Update binaries installed with `go install` in parallel, and move the same toolset to another machine via export/import. |
 | [sqly](https://github.com/nao1215/sqly) | 193 | Interactive shell that runs SQL against CSV, JSON, Parquet, Excel, and other files, with JOINs across formats and write-back. |
 | [mimixbox](https://github.com/nao1215/mimixbox) | 39 | BusyBox-inspired toolbox for Linux, with many commands in a single binary. |
 | [atago](https://github.com/nao1215/atago) | 18 | Test CLI behavior from plain YAML: exit codes, output, files, snapshots, and interactive terminals (PTY/TUI). |
@@ -76,4 +76,4 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 | :--- | ---: | :--- |
 | [rabbitrun](https://github.com/nao1215/rabbitrun) | 1 | A runner game with anime girls for Windows, macOS, and Linux |
 | [succubus-live](https://github.com/nao1215/succubus-live) | 1 | A streaming-site game with succubus VTubers for web browsers, Windows, macOS, and Linux |
-| [gozen](https://github.com/nao1215/gozen) | 1 | Create 2D RPGs, visual novels and strategy games with YAML and a CLI. No coding required. Powered by Ebitengine. |
+| [gozen](https://github.com/nao1215/gozen) | 4 | Create 2D RPGs, visual novels and strategy games with YAML and a CLI. No coding required. Powered by Ebitengine. |
