@@ -1,5 +1,10 @@
 owner: nao1215
 starHistory:
+  repos:
+  - gup
+  - sqly
+  - filesql
+  - markdown
   minStars: 100
 sections:
 - summary: Gleam, Rust, TypeScript, and GitHub Actions
