@@ -1,7 +1,7 @@
 name: Update showcase
 
 # Redraws the repository cards and the showcase section of README.md.
-# Edit showcase/config.json to add, remove, or reorder repositories.
+# Edit .github/readme-showcase.yml to add, remove, or reorder repositories.
 
 on:
   schedule:
@@ -10,7 +10,7 @@ on:
   push:
     branches: [master]
     paths:
-      - "showcase/**"
+      - ".github/readme-showcase.yml"
       - ".github/workflows/showcase.yml"
 
 permissions:
@@ -26,28 +26,16 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
-        with:
-          go-version-file: showcase/go.mod
-          cache: false
-
-      - name: Test
-        working-directory: showcase
-        run: go test ./...
-
       - name: Generate cards and README
-        working-directory: showcase
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: go run .
+        id: showcase
+        uses: nao1215/action-readme-showcase@v0
+        with:
+          token: ${{ secrets.STARS_TOKEN }}
 
       - name: Commit changes
+        if: steps.showcase.outputs.changed == 'true'
         run: |
           git add README.md cards
-          if git diff --cached --quiet; then
-            echo "No changes"
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "docs: update showcase cards"

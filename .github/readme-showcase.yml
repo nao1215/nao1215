@@ -1,0 +1,140 @@
+owner: nao1215
+starHistory:
+  minStars: 100
+sections:
+- summary: Gleam, Rust, TypeScript, and GitHub Actions
+  groups:
+  - title: Gleam packages
+    repos:
+    - name: qrkit
+      description: Generate QR codes and render them to the terminal, SVG, or PNG.
+    - name: oaspec
+      description: Generate typed server stubs and client SDKs from OpenAPI 3.x specifications.
+    - name: geokit
+      description: 'Geographic math: haversine distance, bearing, geohash, polyline, Web Mercator, and bounding
+        boxes.'
+    - name: sqlode
+      description: Generate type-safe code from SQL schemas and queries, sqlc-style, for PostgreSQL, MySQL, and
+        SQLite.
+    - name: metamon
+      description: Property-based and metamorphic testing library.
+    - name: dataprep
+      description: Compose preprocessing and validation from small, typed building blocks.
+    - name: datastream
+      description: Lazy, composable, resource-safe streams on Erlang and JavaScript.
+    - name: textmetrics
+      description: Edit distances, similarity scores, LCS, and diff.
+    - name: yabase
+      description: One type-safe API for Base64, Base32, and other binary-to-text encodings.
+    - name: automata
+      description: Cron, RRULE, retries, filesystem events, and finite automata.
+    - name: finanza
+      description: Decimal arithmetic, currency formatting, time value of money, and payment card validation.
+    - name: multipartkit
+      description: Parse and build multipart bodies such as file uploads.
+    - name: mimetype
+      description: MIME type lookup by extension and file type detection by magic number.
+    - name: ssevents
+      description: Build and parse Server-Sent Events.
+    - name: packkit
+      description: Compression (gzip, zstd, xz, and more) and archives (tar, zip, 7z, and more) with no runtime
+        dependencies.
+    - name: sparklinekit
+      description: Draw sparklines as terminal text, SVG, or PNG.
+  - title: Rust
+    repos:
+    - name: truss
+      description: Image toolkit for CLI, HTTP, and WASM with signed URLs, SSRF protection, and AVIF, WebP, and
+        SVG support.
+    - name: bluesky-terminal-client
+      description: Unofficial Bluesky client for the terminal that shows pictures and videos right in it (kitty
+        graphics, sixel, iTerm2)
+  - title: TypeScript
+    repos:
+    - name: horcrux
+      description: Split files into encrypted fragments and restore them, for Node.js and React Native.
+  - title: GitHub Actions
+    repos:
+    - name: action-readme-showcase
+      description: Draw repository cards and a star history graph as SVG and list them in your README.
+    - name: setup-atago
+      description: Install the atago CLI from prebuilt release binaries.
+    - name: setup-himorime
+      description: Install the himorime CLI from prebuilt release binaries.
+    - name: setup-gozen
+      description: Install the gozen CLI at the version in your go.mod.
+    - name: setup-block
+      description: Install the block CLI and restore its toolchain cache.
+    - name: setup-iso8583tool
+      description: Install the iso8583tool CLI from prebuilt release binaries.
+    - name: setup-ebitengine
+      description: Install the system libraries Ebitengine needs to build and test.
+- groups:
+  - title: Go CLI tools
+    repos:
+    - name: gup
+      description: Update binaries installed with `go install` in parallel, and move the same toolset to another
+        machine via export/import.
+      featured: true
+    - name: sqly
+      description: Interactive shell that runs SQL against CSV, JSON, Parquet, Excel, and other files, with JOINs
+        across formats and write-back.
+      featured: true
+    - name: mimixbox
+      description: BusyBox-inspired toolbox for Linux, with many commands in a single binary.
+    - name: atago
+      description: 'Test CLI behavior from plain YAML: exit codes, output, files, snapshots, and interactive terminals
+        (PTY/TUI).'
+      featured: true
+    - name: onionscan
+      description: Investigate Tor onion services for misconfigurations and information leaks.
+    - name: omokage
+      description: Measure how closely a text matches a learned author's style. Japanese and English, runs locally.
+    - name: jose
+      description: Generate keys (JWK), sign and verify (JWS), and encrypt and decrypt (JWE) from the shell.
+    - name: mobilepkg
+      description: 'Inspect APK, XAPK, APKS, AAB, and IPA files without SDKs: metadata, signing info, diffs, and
+        security findings.'
+    - name: jsonize
+      description: Make JSON from command output, files, and arguments for the next command in a pipeline (`jz`).
+    - name: iso8583tool
+      description: Debug and inspect ISO 8583 payment messages from the command line.
+    - name: career
+      description: Generate a Japanese resume (rirekisho / shokumu keirekisho) and an English CV as PDF from a single
+        YAML file.
+    - name: block
+      description: Pin the CLI versions used in blockchain development with a lock file, so developers and CI use
+        the same tools.
+    - name: himorime
+      description: 'Performance budgets and regression checks for CLIs from plain YAML: latency, throughput, CPU
+        time, and memory.'
+  - title: Go libraries
+    repos:
+    - name: filesql
+      description: Load CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files (including compressed
+        ones) into SQLite and query them through `database/sql`.
+      featured: true
+    - name: markdown
+      description: Build Markdown and Mermaid diagrams from Go code. Stable API since v1.
+      featured: true
+    - name: prompt
+      description: Interactive prompt and REPL library with completion and history, aiming to succeed go-prompt.
+    - name: imaging
+      description: Image processing (resize, crop, rotate, blur, and more). Maintained fork of disintegration/imaging.
+    - name: tornago
+      description: Tor client and server library for Go.
+    - name: sensitive
+      description: Detect and optionally mask sensitive data in text, such as credit card numbers and email addresses.
+  - title: Games with Ebitengine
+    repos:
+    - name: rabbitrun
+      description: A runner game with anime girls for Windows, macOS, and Linux
+    - name: succubus-live
+      language:
+        name: gozen
+        color: '#ff5c8a'
+      description: A streaming-site game with succubus VTubers for web browsers, Windows, macOS, and Linux
+    - name: gozen
+      description: Create 2D RPGs, visual novels and strategy games with YAML and a CLI. No coding required. Powered
+        by Ebitengine.
+      featured: true
