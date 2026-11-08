@@ -5,7 +5,7 @@ starHistory:
   - sqly
   - filesql
   - markdown
-  minStars: 100
+  total: true # all public repositories owned by nao1215, including forks and archives
 sections:
 - summary: Gleam, Rust, TypeScript, and GitHub Actions
   groups:

@@ -28,9 +28,7 @@ jobs:
 
       - name: Generate cards and README
         id: showcase
-        uses: nao1215/action-readme-showcase@v0
-        with:
-          token: ${{ secrets.STARS_TOKEN }}
+        uses: nao1215/action-readme-showcase@c659c0984925f950d8220a37a132165df175c1a7 # owner-wide public total
 
       - name: Commit changes
         if: steps.showcase.outputs.changed == 'true'
