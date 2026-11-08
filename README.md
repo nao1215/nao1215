@@ -1,7 +1,5 @@
 The project cards list only projects I actively maintain. Archived and unmaintained repositories are omitted from the cards.
 
-The `total (all public)` line includes all public repositories owned by `nao1215`, including forks and archived repositories. The other lines show the individually selected repositories.
-
 <!-- showcase:start -->
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="cards/star-history-dark.svg"><img src="cards/star-history-light.svg" width="808" alt="Star history of selected repositories and all public repositories owned by nao1215 (total, including forks and archived repositories)"></picture>
