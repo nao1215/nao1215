@@ -58,17 +58,19 @@ func run() error {
 		return err
 	}
 
-	series, err := fetchStarSeries(ctx, client, token, cfg, infos)
-	if err != nil {
-		return err
-	}
-	if len(series) > maxStarSeries {
-		fmt.Fprintf(os.Stderr, "showcase: warning: star history shows only the first %d of %d repositories\n", maxStarSeries, len(series))
-	}
-	for _, t := range themes {
-		svg := renderStarGraph(series, time.Now().UTC(), t)
-		if err := writeIfChanged(filepath.Join(outDir, starGraphFile(t.Name)), []byte(svg)); err != nil {
-			return err
+	// The graph is a bonus: if it cannot be drawn, keep the previous one and
+	// still update the cards.
+	if series, err := fetchStarSeries(ctx, client, token, cfg, infos); err != nil {
+		fmt.Fprintf(os.Stderr, "showcase: warning: star history not updated: %v\n", err)
+	} else {
+		if len(series) > maxStarSeries {
+			fmt.Fprintf(os.Stderr, "showcase: warning: star history shows only the first %d of %d repositories\n", maxStarSeries, len(series))
+		}
+		for _, t := range themes {
+			svg := renderStarGraph(series, time.Now().UTC(), t)
+			if err := writeIfChanged(filepath.Join(outDir, starGraphFile(t.Name)), []byte(svg)); err != nil {
+				return err
+			}
 		}
 	}
 

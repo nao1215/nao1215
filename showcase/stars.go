@@ -1,12 +1,13 @@
 package main
 
 import (
+	"bytes"
 	"context"
 	"encoding/json"
 	"fmt"
+	"io"
 	"net/http"
 	"sort"
-	"strings"
 	"time"
 )
 
@@ -36,59 +37,67 @@ func fetchStarSeries(ctx context.Context, client *http.Client, token string, cfg
 	return out, nil
 }
 
+// fetchRepoStarDates pages through the REST stargazers list. The GraphQL
+// stargazers connection is not readable with the Actions GITHUB_TOKEN.
 func fetchRepoStarDates(ctx context.Context, client *http.Client, token, owner, name string) ([]time.Time, error) {
 	var out []time.Time
-	cursor := ""
-	for {
-		after := ""
-		if cursor != "" {
-			after = fmt.Sprintf(", after: %q", cursor)
+	for page := 1; ; page++ {
+		url := fmt.Sprintf("https://api.github.com/repos/%s/%s/stargazers?per_page=100&page=%d", owner, name, page)
+		var stars []struct {
+			StarredAt time.Time `json:"starred_at"`
 		}
-		q := fmt.Sprintf(`query { repository(owner: %q, name: %q) { stargazers(first: 100%s) { edges { starredAt } pageInfo { hasNextPage endCursor } } } }`, owner, name, after)
-		body, err := json.Marshal(map[string]string{"query": q})
-		if err != nil {
+		if err := getWithRetry(ctx, client, token, url, &stars); err != nil {
 			return nil, err
 		}
-		var resp stargazersResponse
-		if err := postWithRetry(ctx, client, token, body, &resp); err != nil {
-			return nil, err
+		for _, st := range stars {
+			out = append(out, st.StarredAt)
 		}
-		if len(resp.Errors) > 0 {
-			msgs := make([]string, 0, len(resp.Errors))
-			for _, e := range resp.Errors {
-				msgs = append(msgs, e.Message)
-			}
-			return nil, fmt.Errorf("github graphql: %s", strings.Join(msgs, "; "))
-		}
-		if resp.Data.Repository == nil {
-			return nil, fmt.Errorf("repository not found")
-		}
-		sg := resp.Data.Repository.Stargazers
-		for _, e := range sg.Edges {
-			out = append(out, e.StarredAt)
-		}
-		if !sg.PageInfo.HasNextPage || sg.PageInfo.EndCursor == "" {
+		if len(stars) < 100 {
 			return out, nil
 		}
-		cursor = sg.PageInfo.EndCursor
 	}
 }
 
-type stargazersResponse struct {
-	Data struct {
-		Repository *struct {
-			Stargazers struct {
-				Edges []struct {
-					StarredAt time.Time `json:"starredAt"`
-				} `json:"edges"`
-				PageInfo struct {
-					HasNextPage bool   `json:"hasNextPage"`
-					EndCursor   string `json:"endCursor"`
-				} `json:"pageInfo"`
-			} `json:"stargazers"`
-		} `json:"repository"`
-	} `json:"data"`
-	Errors []struct {
-		Message string `json:"message"`
-	} `json:"errors"`
+func getWithRetry(ctx context.Context, client *http.Client, token, url string, out any) error {
+	var lastErr error
+	for attempt := range 3 {
+		if attempt > 0 {
+			select {
+			case <-ctx.Done():
+				return ctx.Err()
+			case <-time.After(time.Duration(attempt) * 2 * time.Second):
+			}
+		}
+		lastErr = get(ctx, client, token, url, out)
+		if lastErr == nil {
+			return nil
+		}
+	}
+	return lastErr
+}
+
+func get(ctx context.Context, client *http.Client, token, url string, out any) error {
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
+	if err != nil {
+		return err
+	}
+	req.Header.Set("Authorization", "Bearer "+token)
+	req.Header.Set("Accept", "application/vnd.github.star+json")
+	req.Header.Set("X-GitHub-Api-Version", "2022-11-28")
+	req.Header.Set("User-Agent", "nao1215-showcase")
+
+	res, err := client.Do(req)
+	if err != nil {
+		return err
+	}
+	defer res.Body.Close()
+
+	data, err := io.ReadAll(io.LimitReader(res.Body, 8<<20))
+	if err != nil {
+		return err
+	}
+	if res.StatusCode != http.StatusOK {
+		return fmt.Errorf("github rest: %s: %s", res.Status, bytes.TrimSpace(data))
+	}
+	return json.Unmarshal(data, out)
 }
