@@ -5,7 +5,7 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 <picture><source media="(prefers-color-scheme: dark)" srcset="cards/star-history-dark.svg"><img src="cards/star-history-light.svg" width="808" alt="Star history of the featured repositories"></picture>
 
 <details>
-<summary>Gleam, Rust, and TypeScript OSS</summary>
+<summary>Gleam, Rust, TypeScript, and GitHub Actions</summary>
 
 ### Gleam packages
 
@@ -41,6 +41,19 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 ### TypeScript
 
 <a href="https://github.com/nao1215/horcrux"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__horcrux.svg"><img src="cards/light/nao1215__horcrux.svg" width="400" alt="nao1215/horcrux"></picture></a>
+
+### GitHub Actions
+
+<a href="https://github.com/nao1215/action-readme-showcase"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__action-readme-showcase.svg"><img src="cards/light/nao1215__action-readme-showcase.svg" width="400" alt="nao1215/action-readme-showcase"></picture></a>
+<a href="https://github.com/nao1215/setup-atago"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__setup-atago.svg"><img src="cards/light/nao1215__setup-atago.svg" width="400" alt="nao1215/setup-atago"></picture></a>
+
+<a href="https://github.com/nao1215/setup-himorime"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__setup-himorime.svg"><img src="cards/light/nao1215__setup-himorime.svg" width="400" alt="nao1215/setup-himorime"></picture></a>
+<a href="https://github.com/nao1215/setup-gozen"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__setup-gozen.svg"><img src="cards/light/nao1215__setup-gozen.svg" width="400" alt="nao1215/setup-gozen"></picture></a>
+
+<a href="https://github.com/nao1215/setup-block"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__setup-block.svg"><img src="cards/light/nao1215__setup-block.svg" width="400" alt="nao1215/setup-block"></picture></a>
+<a href="https://github.com/nao1215/setup-iso8583tool"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__setup-iso8583tool.svg"><img src="cards/light/nao1215__setup-iso8583tool.svg" width="400" alt="nao1215/setup-iso8583tool"></picture></a>
+
+<a href="https://github.com/nao1215/setup-ebitengine"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__setup-ebitengine.svg"><img src="cards/light/nao1215__setup-ebitengine.svg" width="400" alt="nao1215/setup-ebitengine"></picture></a>
 
 </details>
 
