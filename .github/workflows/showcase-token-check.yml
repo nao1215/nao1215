@@ -1,0 +1,27 @@
+name: Check showcase token access
+
+on: workflow_dispatch
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect star API access without exposing the token
+        env:
+          STARS_TOKEN: ${{ secrets.STARS_TOKEN }}
+        run: |
+          for endpoint in stargazers stargazers/history; do
+            echo "Endpoint: $endpoint"
+            curl --silent --show-error \
+              --dump-header "$RUNNER_TEMP/star-headers" \
+              --output "$RUNNER_TEMP/star-response" \
+              --write-out 'HTTP %{http_code}\n' \
+              --header "Authorization: Bearer $STARS_TOKEN" \
+              --header 'Accept: application/vnd.github+json' \
+              "https://api.github.com/repos/nao1215/gup/$endpoint?per_page=1"
+            grep -i '^x-accepted-github-permissions:' "$RUNNER_TEMP/star-headers" || true
+            jq -r 'if type == "object" then .message // empty else "Response received" end' "$RUNNER_TEMP/star-response"
+          done
