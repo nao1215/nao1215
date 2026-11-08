@@ -2,7 +2,7 @@ The project cards list only projects I actively maintain. Archived and unmaintai
 
 <!-- showcase:start -->
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="cards/star-history-dark.svg?view=all-public-total"><img src="cards/star-history-light.svg?view=all-public-total" width="808" alt="Star history of selected repositories and all public repositories owned by nao1215 (total, including forks and archived repositories)"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="cards/star-history-dark.svg"><img src="cards/star-history-light.svg" width="808" alt="Star history of selected repositories and all public repositories owned by nao1215 (total, including forks and archived repositories)"></picture>
 
 <details>
 <summary>Gleam, Rust, TypeScript, and GitHub Actions</summary>
