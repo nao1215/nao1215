@@ -2,6 +2,8 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 
 <!-- showcase:start -->
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="cards/star-history-dark.svg"><img src="cards/star-history-light.svg" width="808" alt="Star history of the featured repositories"></picture>
+
 <details>
 <summary>Gleam, Rust, and TypeScript OSS</summary>
 

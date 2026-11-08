@@ -4,8 +4,10 @@ import (
 	"encoding/xml"
 	"errors"
 	"io"
+	"sort"
 	"strings"
 	"testing"
+	"time"
 )
 
 func TestWrapText(t *testing.T) {
@@ -214,5 +216,91 @@ func TestShippedConfigIsValid(t *testing.T) {
 
 	if _, err := loadConfig("config.json"); err != nil {
 		t.Fatal(err)
+	}
+}
+
+func TestRenderStarGraph(t *testing.T) {
+	t.Parallel()
+
+	base := time.Date(2021, 3, 1, 12, 0, 0, 0, time.UTC)
+	dates := func(n int, every time.Duration) []time.Time {
+		var out []time.Time
+		for i := range n {
+			out = append(out, base.Add(time.Duration(i)*every))
+		}
+		return out
+	}
+	series := []StarSeries{
+		{Name: "big", Dates: dates(1234, 36*time.Hour)},
+		{Name: `a<b>&"c"`, Dates: dates(3, time.Hour)},
+		{Name: "empty"},
+		{Name: "small", Dates: dates(5, time.Hour)},
+	}
+	now := base.AddDate(5, 0, 0)
+	for _, theme := range themes {
+		for _, in := range [][]StarSeries{series, nil, series[2:3], series[1:2]} {
+			svg := renderStarGraph(in, now, theme)
+			dec := xml.NewDecoder(strings.NewReader(svg))
+			for {
+				_, err := dec.Token()
+				if errors.Is(err, io.EOF) {
+					break
+				}
+				if err != nil {
+					t.Fatalf("%s graph is not well-formed XML: %v\n%s", theme.Name, err, svg)
+				}
+			}
+			if strings.Contains(svg, "NaN") || strings.Contains(svg, "Inf") {
+				t.Errorf("%s graph with %d series has a bad coordinate", theme.Name, len(in))
+			}
+		}
+	}
+	svg := renderStarGraph(series, now, themes[0])
+	for _, want := range []string{">1,234<", ">2022<", ">2026<", ">1.5k<", themes[0].Series[3]} {
+		if !strings.Contains(svg, want) {
+			t.Errorf("graph lacks %q", want)
+		}
+	}
+}
+
+func TestSpreadLabels(t *testing.T) {
+	t.Parallel()
+
+	got := spreadLabels([]float64{100, 100, 50, 101}, 40, 104, 14)
+	sorted := append([]float64(nil), got...)
+	sort.Float64s(sorted)
+	for i := 1; i < len(sorted); i++ {
+		if sorted[i]-sorted[i-1] < 14-1e-9 {
+			t.Errorf("labels overlap: %v", got)
+		}
+	}
+	for _, y := range got {
+		if y < 40 || y > 104 {
+			t.Errorf("label %v is outside the plot: %v", y, got)
+		}
+	}
+	if got[2] != 50 {
+		t.Errorf("a label with room moved: %v", got)
+	}
+}
+
+func TestThemesHaveEnoughSeriesColors(t *testing.T) {
+	t.Parallel()
+
+	for _, theme := range themes {
+		if len(theme.Series) != maxStarSeries {
+			t.Errorf("%s theme has %d series colors, want %d", theme.Name, len(theme.Series), maxStarSeries)
+		}
+	}
+}
+
+func TestNiceScale(t *testing.T) {
+	t.Parallel()
+
+	for in, want := range map[int][2]int{1: {1, 2}, 7: {2, 8}, 1641: {500, 2000}, 2000: {500, 2500}} {
+		step, top := niceScale(in)
+		if step != want[0] || top != want[1] {
+			t.Errorf("niceScale(%d) = %d, %d; want %v", in, step, top, want)
+		}
 	}
 }

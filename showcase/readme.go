@@ -18,10 +18,17 @@ func cardFile(owner, name string) string {
 	return owner + "__" + name + ".svg"
 }
 
+// starGraphFile is the file name of the star history graph for a theme.
+func starGraphFile(theme string) string {
+	return "star-history-" + theme + ".svg"
+}
+
 // renderShowcase builds the Markdown that goes between the markers.
 // cardsDir is the card directory relative to the README.
 func renderShowcase(cfg *Config, infos map[string]RepoInfo, cardsDir string) string {
 	var b strings.Builder
+	fmt.Fprintf(&b, `<picture><source media="(prefers-color-scheme: dark)" srcset="%s"><img src="%s" width="808" alt="Star history of the featured repositories"></picture>`+"\n\n",
+		path.Join(cardsDir, starGraphFile("dark")), path.Join(cardsDir, starGraphFile("light")))
 	for i, s := range cfg.Sections {
 		if i > 0 {
 			b.WriteString("---\n\n")

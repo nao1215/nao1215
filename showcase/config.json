@@ -1,5 +1,6 @@
 {
   "owner": "nao1215",
+  "starGraphMinStars": 100,
   "sections": [
     {
       "summary": "Gleam, Rust, and TypeScript OSS",
@@ -207,7 +208,8 @@
             },
             {
               "name": "gozen",
-              "description": "Create 2D RPGs, visual novels and strategy games with YAML and a CLI. No coding required. Powered by Ebitengine."
+              "description": "Create 2D RPGs, visual novels and strategy games with YAML and a CLI. No coding required. Powered by Ebitengine.",
+              "highlight": true
             }
           ]
         }

@@ -44,7 +44,7 @@ func run() error {
 		return err
 	}
 
-	ctx, cancel := context.WithTimeout(context.Background(), 2*time.Minute)
+	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Minute)
 	defer cancel()
 	client := &http.Client{Timeout: 30 * time.Second}
 	infos, err := fetchRepos(ctx, client, token, cfg.Repos(), cfg.Owner)
@@ -56,6 +56,20 @@ func run() error {
 	outDir := filepath.Join(readmeDir, filepath.FromSlash(*cardsDir))
 	if err := writeCards(cfg, infos, outDir); err != nil {
 		return err
+	}
+
+	series, err := fetchStarSeries(ctx, client, token, cfg, infos)
+	if err != nil {
+		return err
+	}
+	if len(series) > maxStarSeries {
+		fmt.Fprintf(os.Stderr, "showcase: warning: star history shows only the first %d of %d repositories\n", maxStarSeries, len(series))
+	}
+	for _, t := range themes {
+		svg := renderStarGraph(series, time.Now().UTC(), t)
+		if err := writeIfChanged(filepath.Join(outDir, starGraphFile(t.Name)), []byte(svg)); err != nil {
+			return err
+		}
 	}
 
 	doc, err := os.ReadFile(*readmePath)

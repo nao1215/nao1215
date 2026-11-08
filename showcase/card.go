@@ -29,11 +29,16 @@ type Theme struct {
 	Text      string
 	Muted     string
 	Highlight string // border and badge color of highlighted cards
+	// Series colors the lines of the star history graph, in config order.
+	// Validated for colorblind separation against Bg as adjacent pairs.
+	Series []string
 }
 
 var themes = []Theme{
-	{Name: "light", Bg: "#ffffff", Border: "#d1d9e0", Title: "#0969da", Text: "#1f2328", Muted: "#59636e", Highlight: "#bf8700"},
-	{Name: "dark", Bg: "#151b23", Border: "#3d444d", Title: "#4493f8", Text: "#d1d7e0", Muted: "#9198a1", Highlight: "#d29922"},
+	{Name: "light", Bg: "#ffffff", Border: "#d1d9e0", Title: "#0969da", Text: "#1f2328", Muted: "#59636e", Highlight: "#bf8700",
+		Series: []string{"#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300"}},
+	{Name: "dark", Bg: "#151b23", Border: "#3d444d", Title: "#4493f8", Text: "#d1d7e0", Muted: "#9198a1", Highlight: "#d29922",
+		Series: []string{"#3987e5", "#d95926", "#199e70", "#c98500", "#d55181", "#008300"}},
 }
 
 // Octicons (MIT License, https://github.com/primer/octicons), 16px.

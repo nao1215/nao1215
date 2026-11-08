@@ -11,8 +11,11 @@ import (
 // Config lists the repositories shown in the README showcase.
 type Config struct {
 	// Owner is the default owner for repositories written without "owner/".
-	Owner    string    `json:"owner"`
-	Sections []Section `json:"sections"`
+	Owner string `json:"owner"`
+	// StarGraphMinStars is how many stars a highlighted repository needs to
+	// get a line in the star history graph.
+	StarGraphMinStars int       `json:"starGraphMinStars"`
+	Sections          []Section `json:"sections"`
 }
 
 // Section is a run of groups. A section with a Summary is folded into a
@@ -71,6 +74,9 @@ func loadConfig(path string) (*Config, error) {
 func (c *Config) validate() error {
 	if c.Owner == "" {
 		return errors.New("owner is empty")
+	}
+	if c.StarGraphMinStars < 0 {
+		return errors.New("starGraphMinStars is negative")
 	}
 	seen := map[string]bool{}
 	for _, s := range c.Sections {
