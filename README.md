@@ -1,41 +1,44 @@
 Only projects I actively maintain are listed here. Archived and unmaintained repositories are left out.
 
+<!-- showcase:start -->
+
 <details>
 <summary>Gleam, Rust, and TypeScript OSS</summary>
 
 ### Gleam packages
 
-| OSS | Stars | Description |
-| :--- | ---: | :--- |
-| [qrkit](https://github.com/nao1215/qrkit) | 11 | Generate QR codes and render them to the terminal, SVG, or PNG. |
-| [oaspec](https://github.com/nao1215/oaspec) | 11 | Generate typed server stubs and client SDKs from OpenAPI 3.x specifications. |
-| [geokit](https://github.com/nao1215/geokit) | 7 | Geographic math: haversine distance, bearing, geohash, polyline, Web Mercator, and bounding boxes. |
-| [sqlode](https://github.com/nao1215/sqlode) | 5 | Generate type-safe code from SQL schemas and queries, sqlc-style, for PostgreSQL, MySQL, and SQLite. |
-| [metamon](https://github.com/nao1215/metamon) | 7 | Property-based and metamorphic testing library. |
-| [dataprep](https://github.com/nao1215/dataprep) | 5 | Compose preprocessing and validation from small, typed building blocks. |
-| [datastream](https://github.com/nao1215/datastream) | 5 | Lazy, composable, resource-safe streams on Erlang and JavaScript. |
-| [textmetrics](https://github.com/nao1215/textmetrics) | 5 | Edit distances, similarity scores, LCS, and diff. |
-| [yabase](https://github.com/nao1215/yabase) | 4 | One type-safe API for Base64, Base32, and other binary-to-text encodings. |
-| [automata](https://github.com/nao1215/automata) | 4 | Cron, RRULE, retries, filesystem events, and finite automata. |
-| [finanza](https://github.com/nao1215/finanza) | 5 | Decimal arithmetic, currency formatting, time value of money, and payment card validation. |
-| [multipartkit](https://github.com/nao1215/multipartkit) | 3 | Parse and build multipart bodies such as file uploads. |
-| [mimetype](https://github.com/nao1215/mimetype) | 4 | MIME type lookup by extension and file type detection by magic number. |
-| [ssevents](https://github.com/nao1215/ssevents) | 3 | Build and parse Server-Sent Events. |
-| [packkit](https://github.com/nao1215/packkit) | 2 | Compression (gzip, zstd, xz, and more) and archives (tar, zip, 7z, and more) with no runtime dependencies. |
-| [sparklinekit](https://github.com/nao1215/sparklinekit) | 1 | Draw sparklines as terminal text, SVG, or PNG. |
+<a href="https://github.com/nao1215/qrkit"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__qrkit.svg"><img src="cards/light/nao1215__qrkit.svg" width="400" alt="nao1215/qrkit"></picture></a>
+<a href="https://github.com/nao1215/oaspec"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__oaspec.svg"><img src="cards/light/nao1215__oaspec.svg" width="400" alt="nao1215/oaspec"></picture></a>
+
+<a href="https://github.com/nao1215/geokit"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__geokit.svg"><img src="cards/light/nao1215__geokit.svg" width="400" alt="nao1215/geokit"></picture></a>
+<a href="https://github.com/nao1215/sqlode"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__sqlode.svg"><img src="cards/light/nao1215__sqlode.svg" width="400" alt="nao1215/sqlode"></picture></a>
+
+<a href="https://github.com/nao1215/metamon"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__metamon.svg"><img src="cards/light/nao1215__metamon.svg" width="400" alt="nao1215/metamon"></picture></a>
+<a href="https://github.com/nao1215/dataprep"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__dataprep.svg"><img src="cards/light/nao1215__dataprep.svg" width="400" alt="nao1215/dataprep"></picture></a>
+
+<a href="https://github.com/nao1215/datastream"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__datastream.svg"><img src="cards/light/nao1215__datastream.svg" width="400" alt="nao1215/datastream"></picture></a>
+<a href="https://github.com/nao1215/textmetrics"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__textmetrics.svg"><img src="cards/light/nao1215__textmetrics.svg" width="400" alt="nao1215/textmetrics"></picture></a>
+
+<a href="https://github.com/nao1215/yabase"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__yabase.svg"><img src="cards/light/nao1215__yabase.svg" width="400" alt="nao1215/yabase"></picture></a>
+<a href="https://github.com/nao1215/automata"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__automata.svg"><img src="cards/light/nao1215__automata.svg" width="400" alt="nao1215/automata"></picture></a>
+
+<a href="https://github.com/nao1215/finanza"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__finanza.svg"><img src="cards/light/nao1215__finanza.svg" width="400" alt="nao1215/finanza"></picture></a>
+<a href="https://github.com/nao1215/multipartkit"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__multipartkit.svg"><img src="cards/light/nao1215__multipartkit.svg" width="400" alt="nao1215/multipartkit"></picture></a>
+
+<a href="https://github.com/nao1215/mimetype"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__mimetype.svg"><img src="cards/light/nao1215__mimetype.svg" width="400" alt="nao1215/mimetype"></picture></a>
+<a href="https://github.com/nao1215/ssevents"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__ssevents.svg"><img src="cards/light/nao1215__ssevents.svg" width="400" alt="nao1215/ssevents"></picture></a>
+
+<a href="https://github.com/nao1215/packkit"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__packkit.svg"><img src="cards/light/nao1215__packkit.svg" width="400" alt="nao1215/packkit"></picture></a>
+<a href="https://github.com/nao1215/sparklinekit"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__sparklinekit.svg"><img src="cards/light/nao1215__sparklinekit.svg" width="400" alt="nao1215/sparklinekit"></picture></a>
 
 ### Rust
 
-| OSS | Stars | Description |
-| :--- | ---: | :--- |
-| [truss](https://github.com/nao1215/truss) | 10 | Image toolkit for CLI, HTTP, and WASM with signed URLs, SSRF protection, and AVIF, WebP, and SVG support. |
-| [bluesky-terminal-client](https://github.com/nao1215/bluesky-terminal-client) | 6 | Unofficial Bluesky client for the terminal that shows pictures and videos right in it (kitty graphics, sixel, iTerm2) |
+<a href="https://github.com/nao1215/truss"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__truss.svg"><img src="cards/light/nao1215__truss.svg" width="400" alt="nao1215/truss"></picture></a>
+<a href="https://github.com/nao1215/bluesky-terminal-client"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__bluesky-terminal-client.svg"><img src="cards/light/nao1215__bluesky-terminal-client.svg" width="400" alt="nao1215/bluesky-terminal-client"></picture></a>
 
 ### TypeScript
 
-| OSS | Stars | Description |
-| :--- | ---: | :--- |
-| [horcrux](https://github.com/nao1215/horcrux) | 11 | Split files into encrypted fragments and restore them, for Node.js and React Native. |
+<a href="https://github.com/nao1215/horcrux"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__horcrux.svg"><img src="cards/light/nao1215__horcrux.svg" width="400" alt="nao1215/horcrux"></picture></a>
 
 </details>
 
@@ -43,37 +46,42 @@ Only projects I actively maintain are listed here. Archived and unmaintained rep
 
 ### Go CLI tools
 
-| OSS | Stars | Description |
-| :--- | ---: | :--- |
-| [gup](https://github.com/nao1215/gup) | 622 | Update binaries installed with `go install` in parallel, and move the same toolset to another machine via export/import. |
-| [sqly](https://github.com/nao1215/sqly) | 194 | Interactive shell that runs SQL against CSV, JSON, Parquet, Excel, and other files, with JOINs across formats and write-back. |
-| [mimixbox](https://github.com/nao1215/mimixbox) | 39 | BusyBox-inspired toolbox for Linux, with many commands in a single binary. |
-| [atago](https://github.com/nao1215/atago) | 17 | Test CLI behavior from plain YAML: exit codes, output, files, snapshots, and interactive terminals (PTY/TUI). |
-| [onionscan](https://github.com/nao1215/onionscan) | 19 | Investigate Tor onion services for misconfigurations and information leaks. |
-| [omokage](https://github.com/nao1215/omokage) | 17 | Measure how closely a text matches a learned author's style. Japanese and English, runs locally. |
-| [jose](https://github.com/nao1215/jose) | 15 | Generate keys (JWK), sign and verify (JWS), and encrypt and decrypt (JWE) from the shell. |
-| [mobilepkg](https://github.com/nao1215/mobilepkg) | 6 | Inspect APK, XAPK, APKS, AAB, and IPA files without SDKs: metadata, signing info, diffs, and security findings. |
-| [jsonize](https://github.com/nao1215/jsonize) | 21 | Make JSON from command output, files, and arguments for the next command in a pipeline (`jz`). |
-| [iso8583tool](https://github.com/nao1215/iso8583tool) | 6 | Debug and inspect ISO 8583 payment messages from the command line. |
-| [career](https://github.com/nao1215/career) | 4 | Generate a Japanese resume (rirekisho / shokumu keirekisho) and an English CV as PDF from a single YAML file. |
-| [block](https://github.com/nao1215/block) | 2 | Pin the CLI versions used in blockchain development with a lock file, so developers and CI use the same tools. |
-| [himorime](https://github.com/nao1215/himorime) | 3 | Performance budgets and regression checks for CLIs from plain YAML: latency, throughput, CPU time, and memory. |
+<a href="https://github.com/nao1215/gup"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__gup.svg"><img src="cards/light/nao1215__gup.svg" width="400" alt="nao1215/gup"></picture></a>
+<a href="https://github.com/nao1215/sqly"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__sqly.svg"><img src="cards/light/nao1215__sqly.svg" width="400" alt="nao1215/sqly"></picture></a>
+
+<a href="https://github.com/nao1215/mimixbox"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__mimixbox.svg"><img src="cards/light/nao1215__mimixbox.svg" width="400" alt="nao1215/mimixbox"></picture></a>
+<a href="https://github.com/nao1215/atago"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__atago.svg"><img src="cards/light/nao1215__atago.svg" width="400" alt="nao1215/atago"></picture></a>
+
+<a href="https://github.com/nao1215/onionscan"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__onionscan.svg"><img src="cards/light/nao1215__onionscan.svg" width="400" alt="nao1215/onionscan"></picture></a>
+<a href="https://github.com/nao1215/omokage"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__omokage.svg"><img src="cards/light/nao1215__omokage.svg" width="400" alt="nao1215/omokage"></picture></a>
+
+<a href="https://github.com/nao1215/jose"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__jose.svg"><img src="cards/light/nao1215__jose.svg" width="400" alt="nao1215/jose"></picture></a>
+<a href="https://github.com/nao1215/mobilepkg"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__mobilepkg.svg"><img src="cards/light/nao1215__mobilepkg.svg" width="400" alt="nao1215/mobilepkg"></picture></a>
+
+<a href="https://github.com/nao1215/jsonize"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__jsonize.svg"><img src="cards/light/nao1215__jsonize.svg" width="400" alt="nao1215/jsonize"></picture></a>
+<a href="https://github.com/nao1215/iso8583tool"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__iso8583tool.svg"><img src="cards/light/nao1215__iso8583tool.svg" width="400" alt="nao1215/iso8583tool"></picture></a>
+
+<a href="https://github.com/nao1215/career"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__career.svg"><img src="cards/light/nao1215__career.svg" width="400" alt="nao1215/career"></picture></a>
+<a href="https://github.com/nao1215/block"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__block.svg"><img src="cards/light/nao1215__block.svg" width="400" alt="nao1215/block"></picture></a>
+
+<a href="https://github.com/nao1215/himorime"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__himorime.svg"><img src="cards/light/nao1215__himorime.svg" width="400" alt="nao1215/himorime"></picture></a>
 
 ### Go libraries
 
-| OSS | Stars | Description |
-| :--- | ---: | :--- |
-| [filesql](https://github.com/nao1215/filesql) | 383 | Load CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files (including compressed ones) into SQLite and query them through `database/sql`. |
-| [markdown](https://github.com/nao1215/markdown) | 145 | Build Markdown and Mermaid diagrams from Go code. Stable API since v1. |
-| [prompt](https://github.com/nao1215/prompt) | 12 | Interactive prompt and REPL library with completion and history, aiming to succeed go-prompt. |
-| [imaging](https://github.com/nao1215/imaging) | 10 | Image processing (resize, crop, rotate, blur, and more). Maintained fork of disintegration/imaging. |
-| [tornago](https://github.com/nao1215/tornago) | 9 | Tor client and server library for Go. |
-| [sensitive](https://github.com/nao1215/sensitive) | 2 | Detect and optionally mask sensitive data in text, such as credit card numbers and email addresses. |
+<a href="https://github.com/nao1215/filesql"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__filesql.svg"><img src="cards/light/nao1215__filesql.svg" width="400" alt="nao1215/filesql"></picture></a>
+<a href="https://github.com/nao1215/markdown"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__markdown.svg"><img src="cards/light/nao1215__markdown.svg" width="400" alt="nao1215/markdown"></picture></a>
+
+<a href="https://github.com/nao1215/prompt"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__prompt.svg"><img src="cards/light/nao1215__prompt.svg" width="400" alt="nao1215/prompt"></picture></a>
+<a href="https://github.com/nao1215/imaging"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__imaging.svg"><img src="cards/light/nao1215__imaging.svg" width="400" alt="nao1215/imaging"></picture></a>
+
+<a href="https://github.com/nao1215/tornago"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__tornago.svg"><img src="cards/light/nao1215__tornago.svg" width="400" alt="nao1215/tornago"></picture></a>
+<a href="https://github.com/nao1215/sensitive"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__sensitive.svg"><img src="cards/light/nao1215__sensitive.svg" width="400" alt="nao1215/sensitive"></picture></a>
 
 ### Games with Ebitengine
 
-| OSS | Stars | Description |
-| :--- | ---: | :--- |
-| [rabbitrun](https://github.com/nao1215/rabbitrun) | 1 | A runner game with anime girls for Windows, macOS, and Linux |
-| [succubus-live](https://github.com/nao1215/succubus-live) | 1 | A streaming-site game with succubus VTubers for web browsers, Windows, macOS, and Linux |
-| [gozen](https://github.com/nao1215/gozen) | 4 | Create 2D RPGs, visual novels and strategy games with YAML and a CLI. No coding required. Powered by Ebitengine. |
+<a href="https://github.com/nao1215/rabbitrun"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__rabbitrun.svg"><img src="cards/light/nao1215__rabbitrun.svg" width="400" alt="nao1215/rabbitrun"></picture></a>
+<a href="https://github.com/nao1215/succubus-live"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__succubus-live.svg"><img src="cards/light/nao1215__succubus-live.svg" width="400" alt="nao1215/succubus-live"></picture></a>
+
+<a href="https://github.com/nao1215/gozen"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__gozen.svg"><img src="cards/light/nao1215__gozen.svg" width="400" alt="nao1215/gozen"></picture></a>
+
+<!-- showcase:end -->
