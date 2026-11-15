@@ -128,8 +128,8 @@ sections:
       description: Image processing (resize, crop, rotate, blur, and more). Maintained fork of disintegration/imaging.
     - name: tornago
       description: Tor client and server library for Go.
-    - name: sensitive
-      description: Detect and optionally mask sensitive data in text, such as credit card numbers and email addresses.
+    - name: embargo
+      description: Detect and mask personal data, payment data, and secrets in text and logs. Zero dependencies.
   - title: Games with Ebitengine
     repos:
     - name: rabbitrun
