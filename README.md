@@ -90,7 +90,7 @@ The project cards list only projects I actively maintain. Archived and unmaintai
 <a href="https://github.com/nao1215/imaging"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__imaging.svg"><img src="cards/light/nao1215__imaging.svg" width="400" alt="nao1215/imaging"></picture></a>
 
 <a href="https://github.com/nao1215/tornago"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__tornago.svg"><img src="cards/light/nao1215__tornago.svg" width="400" alt="nao1215/tornago"></picture></a>
-<a href="https://github.com/nao1215/sensitive"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__sensitive.svg"><img src="cards/light/nao1215__sensitive.svg" width="400" alt="nao1215/sensitive"></picture></a>
+<a href="https://github.com/nao1215/embargo"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__embargo.svg"><img src="cards/light/nao1215__embargo.svg" width="400" alt="nao1215/embargo"></picture></a>
 
 ### Games with Ebitengine
 
