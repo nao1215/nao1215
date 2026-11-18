@@ -7,8 +7,25 @@ starHistory:
   - markdown
   total: true # all public repositories owned by nao1215, including forks and archives
 sections:
-- summary: Gleam, Rust, TypeScript, and GitHub Actions
+- summary: Go CLI tools, Gleam, Rust, TypeScript, and GitHub Actions
   groups:
+  - title: Go CLI tools
+    repos:
+    - name: mimixbox
+      description: BusyBox-inspired toolbox for Linux, with many commands in a single binary.
+    - name: mobilepkg
+      description: 'Inspect APK, XAPK, APKS, AAB, and IPA files without SDKs: metadata, signing info, diffs, and
+        security findings.'
+    - name: jsonize
+      description: Make JSON from command output, files, and arguments for the next command in a pipeline (`jz`).
+    - name: iso8583tool
+      description: Debug and inspect ISO 8583 payment messages from the command line.
+    - name: career
+      description: Generate a Japanese resume (rirekisho / shokumu keirekisho) and an English CV as PDF from a single
+        YAML file.
+    - name: block
+      description: Pin the CLI versions used in blockchain development with a lock file, so developers and CI use
+        the same tools.
   - title: Gleam packages
     repos:
     - name: qrkit
@@ -85,8 +102,6 @@ sections:
       description: Interactive shell that runs SQL against CSV, JSON, Parquet, Excel, and other files, with JOINs
         across formats and write-back.
       featured: true
-    - name: mimixbox
-      description: BusyBox-inspired toolbox for Linux, with many commands in a single binary.
     - name: atago
       description: 'Test CLI behavior from plain YAML: exit codes, output, files, snapshots, and interactive terminals
         (PTY/TUI).'
@@ -97,19 +112,6 @@ sections:
       description: Measure how closely a text matches a learned author's style. Japanese and English, runs locally.
     - name: jose
       description: Generate keys (JWK), sign and verify (JWS), and encrypt and decrypt (JWE) from the shell.
-    - name: mobilepkg
-      description: 'Inspect APK, XAPK, APKS, AAB, and IPA files without SDKs: metadata, signing info, diffs, and
-        security findings.'
-    - name: jsonize
-      description: Make JSON from command output, files, and arguments for the next command in a pipeline (`jz`).
-    - name: iso8583tool
-      description: Debug and inspect ISO 8583 payment messages from the command line.
-    - name: career
-      description: Generate a Japanese resume (rirekisho / shokumu keirekisho) and an English CV as PDF from a single
-        YAML file.
-    - name: block
-      description: Pin the CLI versions used in blockchain development with a lock file, so developers and CI use
-        the same tools.
     - name: himorime
       description: 'Performance budgets and regression checks for CLIs from plain YAML: latency, throughput, CPU
         time, and memory.'
@@ -130,6 +132,7 @@ sections:
       description: Tor client and server library for Go.
     - name: embargo
       description: Detect and mask personal data, payment data, and secrets in text and logs. Zero dependencies.
+      featured: true
   - title: Games with Ebitengine
     repos:
     - name: rabbitrun

@@ -5,7 +5,18 @@ The project cards list only projects I actively maintain. Archived and unmaintai
 <picture><source media="(prefers-color-scheme: dark)" srcset="cards/star-history-dark.svg?view=all-public-total"><img src="cards/star-history-light.svg?view=all-public-total" width="808" alt="Star history of selected repositories and all public repositories owned by nao1215 (total, including forks and archived repositories)"></picture>
 
 <details>
-<summary>Gleam, Rust, TypeScript, and GitHub Actions</summary>
+<summary>Go CLI tools, Gleam, Rust, TypeScript, and GitHub Actions</summary>
+
+### Go CLI tools
+
+<a href="https://github.com/nao1215/mimixbox"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__mimixbox.svg"><img src="cards/light/nao1215__mimixbox.svg" width="400" alt="nao1215/mimixbox"></picture></a>
+<a href="https://github.com/nao1215/mobilepkg"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__mobilepkg.svg"><img src="cards/light/nao1215__mobilepkg.svg" width="400" alt="nao1215/mobilepkg"></picture></a>
+
+<a href="https://github.com/nao1215/jsonize"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__jsonize.svg"><img src="cards/light/nao1215__jsonize.svg" width="400" alt="nao1215/jsonize"></picture></a>
+<a href="https://github.com/nao1215/iso8583tool"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__iso8583tool.svg"><img src="cards/light/nao1215__iso8583tool.svg" width="400" alt="nao1215/iso8583tool"></picture></a>
+
+<a href="https://github.com/nao1215/career"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__career.svg"><img src="cards/light/nao1215__career.svg" width="400" alt="nao1215/career"></picture></a>
+<a href="https://github.com/nao1215/block"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__block.svg"><img src="cards/light/nao1215__block.svg" width="400" alt="nao1215/block"></picture></a>
 
 ### Gleam packages
 
@@ -64,20 +75,11 @@ The project cards list only projects I actively maintain. Archived and unmaintai
 <a href="https://github.com/nao1215/gup"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__gup.svg"><img src="cards/light/nao1215__gup.svg" width="400" alt="nao1215/gup"></picture></a>
 <a href="https://github.com/nao1215/sqly"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__sqly.svg"><img src="cards/light/nao1215__sqly.svg" width="400" alt="nao1215/sqly"></picture></a>
 
-<a href="https://github.com/nao1215/mimixbox"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__mimixbox.svg"><img src="cards/light/nao1215__mimixbox.svg" width="400" alt="nao1215/mimixbox"></picture></a>
 <a href="https://github.com/nao1215/atago"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__atago.svg"><img src="cards/light/nao1215__atago.svg" width="400" alt="nao1215/atago"></picture></a>
-
 <a href="https://github.com/nao1215/onionscan"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__onionscan.svg"><img src="cards/light/nao1215__onionscan.svg" width="400" alt="nao1215/onionscan"></picture></a>
+
 <a href="https://github.com/nao1215/omokage"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__omokage.svg"><img src="cards/light/nao1215__omokage.svg" width="400" alt="nao1215/omokage"></picture></a>
-
 <a href="https://github.com/nao1215/jose"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__jose.svg"><img src="cards/light/nao1215__jose.svg" width="400" alt="nao1215/jose"></picture></a>
-<a href="https://github.com/nao1215/mobilepkg"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__mobilepkg.svg"><img src="cards/light/nao1215__mobilepkg.svg" width="400" alt="nao1215/mobilepkg"></picture></a>
-
-<a href="https://github.com/nao1215/jsonize"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__jsonize.svg"><img src="cards/light/nao1215__jsonize.svg" width="400" alt="nao1215/jsonize"></picture></a>
-<a href="https://github.com/nao1215/iso8583tool"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__iso8583tool.svg"><img src="cards/light/nao1215__iso8583tool.svg" width="400" alt="nao1215/iso8583tool"></picture></a>
-
-<a href="https://github.com/nao1215/career"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__career.svg"><img src="cards/light/nao1215__career.svg" width="400" alt="nao1215/career"></picture></a>
-<a href="https://github.com/nao1215/block"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__block.svg"><img src="cards/light/nao1215__block.svg" width="400" alt="nao1215/block"></picture></a>
 
 <a href="https://github.com/nao1215/himorime"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__himorime.svg"><img src="cards/light/nao1215__himorime.svg" width="400" alt="nao1215/himorime"></picture></a>
 
