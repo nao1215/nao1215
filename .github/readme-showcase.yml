@@ -98,10 +98,12 @@ sections:
       description: Update binaries installed with `go install` in parallel, and move the same toolset to another
         machine via export/import.
       featured: true
+      awesome: avelino/awesome-go
     - name: sqly
       description: Interactive shell that runs SQL against CSV, JSON, Parquet, Excel, and other files, with JOINs
         across formats and write-back.
       featured: true
+      awesome: avelino/awesome-go
     - name: atago
       description: 'Test CLI behavior from plain YAML: exit codes, output, files, snapshots, and interactive terminals
         (PTY/TUI).'
@@ -121,9 +123,11 @@ sections:
       description: Load CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files (including compressed
         ones) into SQLite and query them through `database/sql`.
       featured: true
+      awesome: avelino/awesome-go
     - name: markdown
       description: Build Markdown and Mermaid diagrams from Go code. Stable API since v1.
       featured: true
+      awesome: avelino/awesome-go
     - name: prompt
       description: Interactive prompt and REPL library with completion and history, aiming to succeed go-prompt.
     - name: imaging
@@ -133,6 +137,7 @@ sections:
     - name: embargo
       description: Detect and mask personal data, payment data, and secrets in text and logs. Zero dependencies.
       featured: true
+      awesome: avelino/awesome-go
   - title: Games with Ebitengine
     repos:
     - name: rabbitrun
@@ -146,3 +151,4 @@ sections:
       description: Create 2D RPGs, visual novels and strategy games with YAML and a CLI. No coding required. Powered
         by Ebitengine.
       featured: true
+      awesome: sedyh/awesome-ebitengine
