@@ -28,7 +28,7 @@ jobs:
 
       - name: Generate cards and README
         id: showcase
-        uses: nao1215/action-readme-showcase@v0.4.0
+        uses: nao1215/action-readme-showcase@v0.5.0
 
       - name: Commit changes
         if: steps.showcase.outputs.changed == 'true'

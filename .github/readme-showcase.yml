@@ -6,7 +6,67 @@ starHistory:
   - filesql
   - markdown
   total: true # all public repositories owned by nao1215, including forks and archives
+  position: bottom
 sections:
+- groups:
+  - title: Projects
+    repos:
+    - name: gup
+      description: Update binaries installed with `go install` in parallel, and move the same toolset to another
+        machine via export/import.
+      featured: true
+      awesome: avelino/awesome-go
+    - name: filesql
+      description: Load CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files (including compressed
+        ones) into SQLite and query them through `database/sql`.
+      featured: true
+      awesome: avelino/awesome-go
+    - name: sqly
+      description: Interactive shell that runs SQL against CSV, JSON, Parquet, Excel, and other files, with JOINs
+        across formats and write-back.
+      featured: true
+      awesome: avelino/awesome-go
+    - name: markdown
+      description: Build Markdown and Mermaid diagrams from Go code. Stable API since v1.
+      featured: true
+      awesome: avelino/awesome-go
+    - name: onionscan
+      description: Investigate Tor onion services for misconfigurations and information leaks.
+    - name: omokage
+      description: Measure how closely a text matches a learned author's style. Japanese and English, runs locally.
+    - name: atago
+      description: 'Test CLI behavior from plain YAML: exit codes, output, files, snapshots, and interactive terminals
+        (PTY/TUI).'
+      featured: true
+    - name: jose
+      description: Generate keys (JWK), sign and verify (JWS), and encrypt and decrypt (JWE) from the shell.
+    - name: oaspec
+      description: Generate typed server stubs and client SDKs from OpenAPI 3.x specifications.
+    - name: qrkit
+      description: Generate QR codes and render them to the terminal, SVG, or PNG.
+    - name: truss
+      description: Image toolkit for CLI, HTTP, and WASM with signed URLs, SSRF protection, and AVIF, WebP, and
+        SVG support.
+    - name: geokit
+      description: 'Geographic math: haversine distance, bearing, geohash, polyline, Web Mercator, and bounding
+        boxes.'
+    - name: metamon
+      description: Property-based and metamorphic testing library.
+    - name: bluesky-terminal-client
+      description: Unofficial Bluesky client for the terminal that shows pictures and videos right in it (kitty
+        graphics, sixel, iTerm2)
+    - name: embargo
+      description: Detect and mask personal data, payment data, and secrets in text and logs. Zero dependencies.
+      featured: true
+      awesome: avelino/awesome-go
+    - name: sqlode
+      description: Generate type-safe code from SQL schemas and queries, sqlc-style, for PostgreSQL, MySQL, and
+        SQLite.
+    - name: gozen
+      description: Create 2D RPGs, visual novels and strategy games with YAML and a CLI. No coding required. Powered
+        by Ebitengine.
+      featured: true
+      awesome: sedyh/awesome-ebitengine
 - summary: More projects
   groups:
   - title: More projects
@@ -81,62 +141,3 @@ sections:
       description: Install the gozen CLI at the version in your go.mod.
     - name: setup-himorime
       description: Install the himorime CLI from prebuilt release binaries.
-- groups:
-  - title: Projects
-    repos:
-    - name: gup
-      description: Update binaries installed with `go install` in parallel, and move the same toolset to another
-        machine via export/import.
-      featured: true
-      awesome: avelino/awesome-go
-    - name: filesql
-      description: Load CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files (including compressed
-        ones) into SQLite and query them through `database/sql`.
-      featured: true
-      awesome: avelino/awesome-go
-    - name: sqly
-      description: Interactive shell that runs SQL against CSV, JSON, Parquet, Excel, and other files, with JOINs
-        across formats and write-back.
-      featured: true
-      awesome: avelino/awesome-go
-    - name: markdown
-      description: Build Markdown and Mermaid diagrams from Go code. Stable API since v1.
-      featured: true
-      awesome: avelino/awesome-go
-    - name: onionscan
-      description: Investigate Tor onion services for misconfigurations and information leaks.
-    - name: omokage
-      description: Measure how closely a text matches a learned author's style. Japanese and English, runs locally.
-    - name: atago
-      description: 'Test CLI behavior from plain YAML: exit codes, output, files, snapshots, and interactive terminals
-        (PTY/TUI).'
-      featured: true
-    - name: jose
-      description: Generate keys (JWK), sign and verify (JWS), and encrypt and decrypt (JWE) from the shell.
-    - name: oaspec
-      description: Generate typed server stubs and client SDKs from OpenAPI 3.x specifications.
-    - name: qrkit
-      description: Generate QR codes and render them to the terminal, SVG, or PNG.
-    - name: truss
-      description: Image toolkit for CLI, HTTP, and WASM with signed URLs, SSRF protection, and AVIF, WebP, and
-        SVG support.
-    - name: geokit
-      description: 'Geographic math: haversine distance, bearing, geohash, polyline, Web Mercator, and bounding
-        boxes.'
-    - name: metamon
-      description: Property-based and metamorphic testing library.
-    - name: bluesky-terminal-client
-      description: Unofficial Bluesky client for the terminal that shows pictures and videos right in it (kitty
-        graphics, sixel, iTerm2)
-    - name: embargo
-      description: Detect and mask personal data, payment data, and secrets in text and logs. Zero dependencies.
-      featured: true
-      awesome: avelino/awesome-go
-    - name: sqlode
-      description: Generate type-safe code from SQL schemas and queries, sqlc-style, for PostgreSQL, MySQL, and
-        SQLite.
-    - name: gozen
-      description: Create 2D RPGs, visual novels and strategy games with YAML and a CLI. No coding required. Powered
-        by Ebitengine.
-      featured: true
-      awesome: sedyh/awesome-ebitengine
