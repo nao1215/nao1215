@@ -2,7 +2,35 @@ The project cards list only projects I actively maintain. Archived and unmaintai
 
 <!-- showcase:start -->
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="cards/star-history-dark.svg?view=all-public-total"><img src="cards/star-history-light.svg?view=all-public-total" width="808" alt="Star history of selected repositories and all public repositories owned by nao1215 (total, including forks and archived repositories)"></picture>
+### Projects
+
+<a href="https://github.com/nao1215/gup"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__gup.svg"><img src="cards/light/nao1215__gup.svg" width="400" alt="nao1215/gup"></picture></a>
+<a href="https://github.com/nao1215/filesql"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__filesql.svg"><img src="cards/light/nao1215__filesql.svg" width="400" alt="nao1215/filesql"></picture></a>
+
+<a href="https://github.com/nao1215/sqly"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__sqly.svg"><img src="cards/light/nao1215__sqly.svg" width="400" alt="nao1215/sqly"></picture></a>
+<a href="https://github.com/nao1215/markdown"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__markdown.svg"><img src="cards/light/nao1215__markdown.svg" width="400" alt="nao1215/markdown"></picture></a>
+
+<a href="https://github.com/nao1215/onionscan"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__onionscan.svg"><img src="cards/light/nao1215__onionscan.svg" width="400" alt="nao1215/onionscan"></picture></a>
+<a href="https://github.com/nao1215/omokage"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__omokage.svg"><img src="cards/light/nao1215__omokage.svg" width="400" alt="nao1215/omokage"></picture></a>
+
+<a href="https://github.com/nao1215/atago"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__atago.svg"><img src="cards/light/nao1215__atago.svg" width="400" alt="nao1215/atago"></picture></a>
+<a href="https://github.com/nao1215/jose"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__jose.svg"><img src="cards/light/nao1215__jose.svg" width="400" alt="nao1215/jose"></picture></a>
+
+<a href="https://github.com/nao1215/oaspec"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__oaspec.svg"><img src="cards/light/nao1215__oaspec.svg" width="400" alt="nao1215/oaspec"></picture></a>
+<a href="https://github.com/nao1215/qrkit"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__qrkit.svg"><img src="cards/light/nao1215__qrkit.svg" width="400" alt="nao1215/qrkit"></picture></a>
+
+<a href="https://github.com/nao1215/truss"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__truss.svg"><img src="cards/light/nao1215__truss.svg" width="400" alt="nao1215/truss"></picture></a>
+<a href="https://github.com/nao1215/geokit"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__geokit.svg"><img src="cards/light/nao1215__geokit.svg" width="400" alt="nao1215/geokit"></picture></a>
+
+<a href="https://github.com/nao1215/metamon"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__metamon.svg"><img src="cards/light/nao1215__metamon.svg" width="400" alt="nao1215/metamon"></picture></a>
+<a href="https://github.com/nao1215/bluesky-terminal-client"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__bluesky-terminal-client.svg"><img src="cards/light/nao1215__bluesky-terminal-client.svg" width="400" alt="nao1215/bluesky-terminal-client"></picture></a>
+
+<a href="https://github.com/nao1215/embargo"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__embargo.svg"><img src="cards/light/nao1215__embargo.svg" width="400" alt="nao1215/embargo"></picture></a>
+<a href="https://github.com/nao1215/sqlode"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__sqlode.svg"><img src="cards/light/nao1215__sqlode.svg" width="400" alt="nao1215/sqlode"></picture></a>
+
+<a href="https://github.com/nao1215/gozen"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__gozen.svg"><img src="cards/light/nao1215__gozen.svg" width="400" alt="nao1215/gozen"></picture></a>
+
+---
 
 <details>
 <summary>More projects</summary>
@@ -60,33 +88,7 @@ The project cards list only projects I actively maintain. Archived and unmaintai
 
 ---
 
-### Projects
-
-<a href="https://github.com/nao1215/gup"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__gup.svg"><img src="cards/light/nao1215__gup.svg" width="400" alt="nao1215/gup"></picture></a>
-<a href="https://github.com/nao1215/filesql"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__filesql.svg"><img src="cards/light/nao1215__filesql.svg" width="400" alt="nao1215/filesql"></picture></a>
-
-<a href="https://github.com/nao1215/sqly"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__sqly.svg"><img src="cards/light/nao1215__sqly.svg" width="400" alt="nao1215/sqly"></picture></a>
-<a href="https://github.com/nao1215/markdown"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__markdown.svg"><img src="cards/light/nao1215__markdown.svg" width="400" alt="nao1215/markdown"></picture></a>
-
-<a href="https://github.com/nao1215/onionscan"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__onionscan.svg"><img src="cards/light/nao1215__onionscan.svg" width="400" alt="nao1215/onionscan"></picture></a>
-<a href="https://github.com/nao1215/omokage"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__omokage.svg"><img src="cards/light/nao1215__omokage.svg" width="400" alt="nao1215/omokage"></picture></a>
-
-<a href="https://github.com/nao1215/atago"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__atago.svg"><img src="cards/light/nao1215__atago.svg" width="400" alt="nao1215/atago"></picture></a>
-<a href="https://github.com/nao1215/jose"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__jose.svg"><img src="cards/light/nao1215__jose.svg" width="400" alt="nao1215/jose"></picture></a>
-
-<a href="https://github.com/nao1215/oaspec"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__oaspec.svg"><img src="cards/light/nao1215__oaspec.svg" width="400" alt="nao1215/oaspec"></picture></a>
-<a href="https://github.com/nao1215/qrkit"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__qrkit.svg"><img src="cards/light/nao1215__qrkit.svg" width="400" alt="nao1215/qrkit"></picture></a>
-
-<a href="https://github.com/nao1215/truss"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__truss.svg"><img src="cards/light/nao1215__truss.svg" width="400" alt="nao1215/truss"></picture></a>
-<a href="https://github.com/nao1215/geokit"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__geokit.svg"><img src="cards/light/nao1215__geokit.svg" width="400" alt="nao1215/geokit"></picture></a>
-
-<a href="https://github.com/nao1215/metamon"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__metamon.svg"><img src="cards/light/nao1215__metamon.svg" width="400" alt="nao1215/metamon"></picture></a>
-<a href="https://github.com/nao1215/bluesky-terminal-client"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__bluesky-terminal-client.svg"><img src="cards/light/nao1215__bluesky-terminal-client.svg" width="400" alt="nao1215/bluesky-terminal-client"></picture></a>
-
-<a href="https://github.com/nao1215/embargo"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__embargo.svg"><img src="cards/light/nao1215__embargo.svg" width="400" alt="nao1215/embargo"></picture></a>
-<a href="https://github.com/nao1215/sqlode"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__sqlode.svg"><img src="cards/light/nao1215__sqlode.svg" width="400" alt="nao1215/sqlode"></picture></a>
-
-<a href="https://github.com/nao1215/gozen"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__gozen.svg"><img src="cards/light/nao1215__gozen.svg" width="400" alt="nao1215/gozen"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="cards/star-history-dark.svg?view=all-public-total"><img src="cards/star-history-light.svg?view=all-public-total" width="808" alt="Star history of selected repositories and all public repositories owned by nao1215 (total, including forks and archived repositories)"></picture>
 
 <!-- showcase:end -->
 
