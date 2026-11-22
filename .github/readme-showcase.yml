@@ -1,12 +1,4 @@
 owner: nao1215
-starHistory:
-  repos:
-  - gup
-  - sqly
-  - filesql
-  - markdown
-  total: true # all public repositories owned by nao1215, including forks and archives
-  position: bottom
 sections:
 - groups:
   - title: Projects
