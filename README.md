@@ -79,9 +79,10 @@ The project cards list only projects I actively maintain. Archived and unmaintai
 <a href="https://github.com/nao1215/sparklinekit"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__sparklinekit.svg"><img src="cards/light/nao1215__sparklinekit.svg" width="400" alt="nao1215/sparklinekit"></picture></a>
 <a href="https://github.com/nao1215/succubus-live"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__succubus-live.svg"><img src="cards/light/nao1215__succubus-live.svg" width="400" alt="nao1215/succubus-live"></picture></a>
 
+<a href="https://github.com/nao1215/lottery6"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__lottery6.svg"><img src="cards/light/nao1215__lottery6.svg" width="400" alt="nao1215/lottery6"></picture></a>
 <a href="https://github.com/nao1215/setup-block"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__setup-block.svg"><img src="cards/light/nao1215__setup-block.svg" width="400" alt="nao1215/setup-block"></picture></a>
-<a href="https://github.com/nao1215/setup-gozen"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__setup-gozen.svg"><img src="cards/light/nao1215__setup-gozen.svg" width="400" alt="nao1215/setup-gozen"></picture></a>
 
+<a href="https://github.com/nao1215/setup-gozen"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__setup-gozen.svg"><img src="cards/light/nao1215__setup-gozen.svg" width="400" alt="nao1215/setup-gozen"></picture></a>
 <a href="https://github.com/nao1215/setup-himorime"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__setup-himorime.svg"><img src="cards/light/nao1215__setup-himorime.svg" width="400" alt="nao1215/setup-himorime"></picture></a>
 
 </details>
