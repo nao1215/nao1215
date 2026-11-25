@@ -127,6 +127,12 @@ sections:
         name: gozen
         color: '#ff5c8a'
       description: A streaming-site game with succubus VTubers for web browsers, Windows, macOS, and Linux
+    - name: lottery6
+      language:
+        name: gozen
+        color: '#ff5c8a'
+      description: A 6-of-43 number lottery played on a phone, with a gyaru who spends her friend's money, for web
+        browsers, Windows, macOS, and Linux
     - name: setup-block
       description: Install the block CLI and restore its toolchain cache.
     - name: setup-gozen
