@@ -44,7 +44,7 @@ sections:
         boxes.'
     - name: metamon
       description: Property-based and metamorphic testing library.
-    - name: bluesky-terminal-client
+    - name: sns-terminal-clients
       description: Unofficial Bluesky client for the terminal that shows pictures and videos right in it (kitty
         graphics, sixel, iTerm2)
     - name: misskey-terminal-client
