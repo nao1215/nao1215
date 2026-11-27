@@ -44,9 +44,9 @@ sections:
         boxes.'
     - name: metamon
       description: Property-based and metamorphic testing library.
-    - name: sns-terminal-clients
-      description: Unofficial Bluesky client for the terminal that shows pictures and videos right in it (kitty
-        graphics, sixel, iTerm2)
+    - name: social-terminal-clients
+      description: Unofficial terminal clients for Bluesky (bsky), with Mastodon and Misskey joining; pictures and
+        videos show right in the terminal (kitty graphics, sixel, iTerm2)
     - name: embargo
       description: Detect and mask personal data, payment data, and secrets in text and logs. Zero dependencies.
       featured: true
