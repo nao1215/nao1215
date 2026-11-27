@@ -25,10 +25,9 @@ The project cards list only projects I actively maintain. Archived and unmaintai
 <a href="https://github.com/nao1215/metamon"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__metamon.svg"><img src="cards/light/nao1215__metamon.svg" width="400" alt="nao1215/metamon"></picture></a>
 <a href="https://github.com/nao1215/sns-terminal-clients"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__sns-terminal-clients.svg"><img src="cards/light/nao1215__sns-terminal-clients.svg" width="400" alt="nao1215/sns-terminal-clients"></picture></a>
 
-<a href="https://github.com/nao1215/misskey-terminal-client"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__misskey-terminal-client.svg"><img src="cards/light/nao1215__misskey-terminal-client.svg" width="400" alt="nao1215/misskey-terminal-client"></picture></a>
 <a href="https://github.com/nao1215/embargo"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__embargo.svg"><img src="cards/light/nao1215__embargo.svg" width="400" alt="nao1215/embargo"></picture></a>
-
 <a href="https://github.com/nao1215/sqlode"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__sqlode.svg"><img src="cards/light/nao1215__sqlode.svg" width="400" alt="nao1215/sqlode"></picture></a>
+
 <a href="https://github.com/nao1215/gozen"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/nao1215__gozen.svg"><img src="cards/light/nao1215__gozen.svg" width="400" alt="nao1215/gozen"></picture></a>
 
 ---
