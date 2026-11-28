@@ -47,6 +47,7 @@ sections:
     - name: social-terminal-clients
       description: Unofficial terminal clients for Bluesky (bsky) and Misskey (msky) that show pictures and
         videos right in the terminal (kitty graphics, sixel, iTerm2)
+      featured: true
     - name: embargo
       description: Detect and mask personal data, payment data, and secrets in text and logs. Zero dependencies.
       featured: true
